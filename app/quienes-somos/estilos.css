@@ -282,37 +282,16 @@
   }
 }
   
-@media (max-width: 942px) { /* Para tablets y pantallas medianas */
-  .dropbtn, .dropbtn2 {
-      width: 90%; /* Ocupan casi todo el ancho */
-      font-size: 14px; /* Ajusta el tamaño del texto */
-      left: auto;
-      right: auto; /* Centra el botón horizontalmente */
-      top: 100px; /* Ajusta la posición vertical */
-  }
-
-  .dropdown-content, .dropdown-content2 {
-      width: 90%; /* Ajusta el ancho del contenido desplegable */
-      left: 5%; /* Centra dentro del contenedor */
-      right: auto;
-      top: 140px; /* Ajusta la posición vertical para que esté debajo del botón */
-      margin-top: 10px; /* Añade espacio entre el botón y el contenido */
-      width: 440px;
-      height: 240px;
-  }
-
-  .dropdown {
-      left: auto; /* Resetea las posiciones absolutas */
-      top: 0;
-  }
-
-  .dropdown2 {
-      left: auto; /* Resetea las posiciones absolutas */
-      top: 0;
+@media (max-width: 1200px) {
+  .image-container2 {
+    position: relative;
+    left: 70%;
+    transform: translateY(-160%);
   }
 }
 
-@media (max-width: 800px) {
+
+@media (max-width: 970px) {
   .image-container2 {
     position: relative;
     left: 30%;
@@ -362,24 +341,45 @@
     
     }
 
-@media (max-width: 480px) { /* Para dispositivos móviles */
-    .dropbtn, .dropbtn2 {
-        width: 95%; /* Ocupan casi todo el ancho */
-        font-size: 12px; /* Reduce el tamaño del texto */
-        top: 100px; /* Ajusta la posición vertical */
-        left: -30px;
-    }
 
-    .dropdown-content, .dropdown-content2 {
-        width: 95%; /* Contenido desplegable ocupa todo el ancho */
-        left: 2.5%; /* Centra dentro del contenedor */
-        top: 145px; /* Ajusta la posición vertical */
-        left: -28px;
-        margin-top: 5px; /* Espacio entre botón y contenido */
-        width: 420px;
-        height: 220px;
-    }
+@media (max-width: 480px) {
+  .navbar2 {
+    flex-direction: column;
+    padding: 0.75rem;
+    width: 100%;
+    top: -210px;
+  }
+  
+  .navbar-links2 {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
 
+  .heading-primary-quienes-somos{
+position: relative;
+top: -170px;
+  }
 
+  .heading-secondary-quienes-somos{
+    position: relative;
+    top: -230px;
+  }
+
+  .vision{
+    position: relative;
+    top: -170px;
+  }
+
+  .image-container2 {
+    position: relative;
+    left: 15%;
+    transform: translateY(-135%);
+  }
+  .linkedin {
+    position: relative; /* Esto asegura que no se vea afectado por el 'fixed' del h2 */
+    left: 0%;
+    top: 220px; /* AMOE STE COMANDO */
+  }
 }
 

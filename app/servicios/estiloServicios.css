@@ -17,7 +17,7 @@
     width: 100%;
   }
 
-  .heading-primary-quienes-somos {
+  .heading-primary-quienes-somos3 {
     position: relative;
     top: 160px;
     font-size: 2.5rem; /* Ajusta el tamaño para pantallas más pequeñas */
@@ -27,7 +27,7 @@
     text-align: center;
 }
   
-.heading-secondary-quienes-somos {
+.heading-secondary-quienes-somos3 {
   margin: 0 auto; /* Centra el texto horizontalmente */
   padding: 1rem; /* Espacio interno para mejor legibilidad */
   font-size: 1.2rem;
@@ -66,7 +66,7 @@
   }
   
   
-  .vision {
+  .vision3 {
     position: relative;
     top: 166px;
     font-size: 1.25rem;
@@ -240,58 +240,32 @@ h3{
   
 
   
-  @media (max-width: 942px) { /* Para tablets y pantallas medianas */
-    .dropbtn, .dropbtn2 {
-        width: 90%; /* Ocupan casi todo el ancho */
-        font-size: 14px; /* Ajusta el tamaño del texto */
-        left: auto;
-        right: auto; /* Centra el botón horizontalmente */
-        top: 100px; /* Ajusta la posición vertical */
-    }
+@media (max-width: 480px) {
+  .navbar3 {
+    flex-direction: column;
+    padding: 0.75rem;
+    width: 100%;
+    top: 85px;
+  }
+  
+  .navbar-links3 {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
 
-    .dropdown-content, .dropdown-content2 {
-        width: 90%; /* Ajusta el ancho del contenido desplegable */
-        left: 5%; /* Centra dentro del contenedor */
-        right: auto;
-        top: 140px; /* Ajusta la posición vertical para que esté debajo del botón */
-        margin-top: 10px; /* Añade espacio entre el botón y el contenido */
-        width: 440px;
-        height: 240px;
-    }
+  .heading-primary-quienes-somos3{
+    position: relative;
+    top: 100px;
+  }
 
-    .dropdown {
-        left: auto; /* Resetea las posiciones absolutas */
-        top: 0;
-    }
+  .vision3{
+    position: relative;
+    top: 100px;
+  }
 
-    .dropdown2 {
-        left: auto; /* Resetea las posiciones absolutas */
-        top: 0;
-    }
-}
-
-@media (max-width: 480px) { /* Para dispositivos móviles */
-    .dropbtn, .dropbtn2 {
-        width: 95%; /* Ocupan casi todo el ancho */
-        font-size: 12px; /* Reduce el tamaño del texto */
-        top: 100px; /* Ajusta la posición vertical */
-        left: -30px;
-    }
-
-    .dropdown-content, .dropdown-content2 {
-        width: 95%; /* Contenido desplegable ocupa todo el ancho */
-        left: 2.5%; /* Centra dentro del contenedor */
-        top: 145px; /* Ajusta la posición vertical */
-        left: -28px;
-        margin-top: 5px; /* Espacio entre botón y contenido */
-        width: 420px;
-        height: 220px;
-    }
-
-    .image-container {
-      position: relative;
-      left: 82%;
-      transform: translateY(-168%);
-    
-    }
+  .hero-container3{
+    position: relative;
+    top: -45px;
+  }
 }

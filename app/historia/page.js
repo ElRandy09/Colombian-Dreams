@@ -23,15 +23,15 @@ export default function About() {
     <div className="logo">
                 <Link href="/">Colombian Dreams</Link>
             </div>
-            <div className="hero-container">
+            <div className="hero-container5">
             <div className="container">
             <Navbar /> 
                 <div className="text-main">
-                    <h1 className="heading-primary-quienes-somos">¿Quiénes somos?</h1>
-                    <h3 className='vision'>Somos tu impulso para hacer realidad tus ideas y proyectos.</h3>
+                    <h1 className="heading-primary-quienes-somos5">¿Quiénes somos?</h1>
+                    <h3 className='vision5'>Somos tu impulso para hacer realidad tus ideas y proyectos.</h3>
                     <div className="about-text-wrapper">
                         <div className="text-section">
-                            <h2 className="heading-secondary-quienes-somos">
+                            <h2 className="heading-secondary-quienes-somos5">
                             En Colombian Dreams, creemos en el poder transformador de las ideas. Nos dedicamos a empoderar a personas y organizaciones para convertir sus sueños en realidades tangibles. Nuestro enfoque se basa en una gestión estratégica, personalizada y empática, asegurando que cada proyecto sea un éxito.
             
                             </h2>
@@ -64,7 +64,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div className="image-container">
+                <div className="colombianlogo">
                     <img src="/logo.jpeg" alt="Logo" className="profile-image" />
                 </div>
                 </div>

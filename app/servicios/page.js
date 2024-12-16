@@ -15,8 +15,8 @@ export default function About() {
                 <div className="container2">
                     <Navbar />
                     <div className="text-main">
-                        <h1 className="heading-primary-quienes-somos">¿Qué ofrecemos?</h1>
-                        <h3 className="vision">Nuestros servicios son 100% seguros.</h3>
+                        <h1 className="heading-primary-quienes-somos3">¿Qué ofrecemos?</h1>
+                        <h3 className="vision3">Nuestros servicios son 100% seguros.</h3>
                         <div className="pricing-container">
                          <div className="hero-container3">
                             <div className="pricing-cards">

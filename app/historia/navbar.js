@@ -15,30 +15,30 @@ const Navbar = () => {
 
   return (
     <motion.nav
-      className="navbar2"
+      className="navbar5"
       variants={navbarVariants}
       initial="hidden"
       animate="visible"
       transition={{ duration:0.6 }}
     >
-      <div className="navbar-links2">
+      <div className="navbar-links5">
         <motion.div variants={linkVariants} whileHover="hover">
-          <Link href="/quienes-somos" className="navbar-link2">
+          <Link href="/quienes-somos" className="navbar-link5">
             Nuestro equipo
           </Link>
         </motion.div>
         <motion.div variants={linkVariants} whileHover="hover">
-          <Link href="/servicios" className="navbar-link2">
+          <Link href="/servicios" className="navbar-link5">
             Servicios
           </Link>
         </motion.div>
         <motion.div variants={linkVariants} whileHover="hover">
-          <Link href="/contacto" className="navbar-link2">
+          <Link href="/contacto" className="navbar-link5">
             Contacto
           </Link>
         </motion.div>
         <motion.div variants={linkVariants} whileHover="hover">
-          <Link href="/historia" className="navbar-link2">
+          <Link href="/historia" className="navbar-link5">
             ¿Quiénes somos?
           </Link>
         </motion.div>

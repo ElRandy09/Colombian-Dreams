@@ -1,5 +1,5 @@
 /* Estilo del botón */
-.hero-container {
+.hero-container5 {
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap; /* Permite que los elementos se ajusten mejor */
@@ -9,16 +9,17 @@
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
+    overflow-x: hidden;
   }
 
-  .image-container {
+  .colombianlogo {
     position: relative;
     left: 82%;  /* Esto coloca la imagen en la parte derecha */
     transform: translateY(-220%);
   
   }
 
-  .heading-primary-quienes-somos {
+  .heading-primary-quienes-somos5 {
     position: relative;
     top: 160px;
     font-size: 2.5rem; /* Ajusta el tamaño para pantallas más pequeñas */
@@ -28,7 +29,7 @@
     text-align: center;
 }
   
-.heading-secondary-quienes-somos {
+.heading-secondary-quienes-somos5 {
   margin: 0 auto; /* Centra el texto horizontalmente */
   padding: 1rem; /* Espacio interno para mejor legibilidad */
   font-size: 1.2rem;
@@ -48,26 +49,8 @@
     margin-bottom: 20rem; /* Esto mueve solo el contenedor */
   }
   
-  .linkedin {
-    font-size: 1rem; 
-    color: rgba(255, 255, 255); 
-    position: relative; /* Esto asegura que no se vea afectado por el 'fixed' del h2 */
-    left: 25%;
-    top: 380px; /* AMOE STE COMANDO */
-    text-align: justify;
-  }
   
-  .hipervinculo{
-    color: #6ec2f0; /* Cambia el valor por el color que desees */
-    text-decoration: none; /* Si no deseas subrayado */
-  }
-  
-  .hipervinculo:hover {
-    color: #ff5733; /* Cambia el color cuando el usuario pase el ratón sobre el enlace */
-  }
-  
-  
-  .vision {
+  .vision5 {
     position: relative;
     top: 166px;
     font-size: 1.25rem;
@@ -179,7 +162,7 @@
   }
   
   
-.navbar2 {
+.navbar5 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,7 +176,7 @@
 
 
 
-.navbar-logo2 {
+.navbar-logo5 {
   align-self: flex-start;
   font-size: 1.5rem;
   font-weight: bold;
@@ -201,7 +184,7 @@
   margin-right: auto;
 }
 
-.navbar-links2 {
+.navbar-links5 {
   font-size: 1.25rem;
   display: flex;
   flex-grow: 1;
@@ -210,12 +193,12 @@
   align-items: center;
 }
 
-.navbar-link2 {
+.navbar-link5 {
   color: #cdad7d;
   transition: all 0.2s ease-in-out;
 }
 
-.navbar-link2:hover {
+.navbar-link5:hover {
   text-decoration: underline;
   color: #a38251;
 }
@@ -278,8 +261,8 @@
     .dropbtn, .dropbtn2 {
         width: 95%; /* Ocupan casi todo el ancho */
         font-size: 12px; /* Reduce el tamaño del texto */
-        top: 100px; /* Ajusta la posición vertical */
-        left: -30px;
+        top: -200px; /* Ajusta la posición vertical */
+        left: 10px;
         width: 100px;
         height: 100px;
     }
@@ -287,17 +270,46 @@
     .dropdown-content, .dropdown-content2 {
         width: 95%; /* Contenido desplegable ocupa todo el ancho */
         left: 2.5%; /* Centra dentro del contenedor */
-        top: 190px; /* Ajusta la posición vertical */
-        left: -30px;
+        top: -110px; /* Ajusta la posición vertical */
+        left: 10px;
         margin-top: 5px; /* Espacio entre botón y contenido */
         width: 100px;
         height: 400px;
     }
 
-    .image-container {
+    .colombianlogo {
       position: relative;
-      left: 10%;
-      transform: translateY(-100%);
+      left: 15%;
+      transform: translateY(-220%);
     
+    }
+
+    .navbar5 {
+      flex-direction: column;
+      padding: 0.75rem;
+      width: 100%;
+      top: -210px;
+    }
+    
+    .navbar-links5 {
+      flex-direction: column;
+      gap: 2rem;
+      text-align: center;
+    }
+  
+    .heading-primary-quienes-somos5{
+  position: relative;
+  top: -170px;
+    }
+  
+    .heading-secondary-quienes-somos5{
+      position: relative;
+      top: -230px;
+      left: 10px;
+    }
+  
+    .vision5{
+      position: relative;
+      top: -170px;
     }
 }
