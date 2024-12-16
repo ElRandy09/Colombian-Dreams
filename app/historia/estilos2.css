@@ -133,6 +133,9 @@
     top: 190px;
     right: 370px;
     animation: fadeIn 0.5s forwards;
+    margin: 0;
+    color: #333;
+    font-size: 15.2px;
   }
 
   .dropdown-content2 {
@@ -146,13 +149,11 @@
     top: 140px;
     left: 83px;
     animation: fadeIn 0.5s forwards;
-  }
-  
-  .dropdown-content p {
     margin: 0;
     color: #333;
     font-size: 15.2px;
   }
+  
 
   .profile-image {
     width: 300px; /* Ajusta el tamaño de la imagen */
@@ -219,7 +220,7 @@
 
 
   
-  @media (max-width: 942px) { /* Para tablets y pantallas medianas */
+  @media (max-width: 1400px) { /* Para tablets y pantallas medianas */
     .dropbtn, .dropbtn2 {
         width: 90%; /* Ocupan casi todo el ancho */
         font-size: 14px; /* Ajusta el tamaño del texto */
@@ -242,40 +243,64 @@
 
     .dropdown {
         left: auto; /* Resetea las posiciones absolutas */
-        top: 0;
+        top: 10px;
     }
 
     .dropdown2 {
         left: auto; /* Resetea las posiciones absolutas */
-        top: 0;
+        top: 10px;
     }
-    .image-container {
+    .colombianlogo {
       position: relative;
-      left: 10%;
-      transform: translateY(-100%);
+      left: 7%;
+      transform: translateY(-80%);
     
     }
+
 }
 
 @media (max-width: 480px) { /* Para dispositivos móviles */
-    .dropbtn, .dropbtn2 {
+    .dropbtn, .dropdown {
+      position: relative;
         width: 95%; /* Ocupan casi todo el ancho */
         font-size: 12px; /* Reduce el tamaño del texto */
-        top: -200px; /* Ajusta la posición vertical */
+        top: -100px; /* Ajusta la posición vertical */
         left: 10px;
         width: 100px;
         height: 100px;
     }
 
-    .dropdown-content, .dropdown-content2 {
-        width: 95%; /* Contenido desplegable ocupa todo el ancho */
+    .dropbtn2, .dropdown2{
+      position: relative;
+        width: 95%; /* Ocupan casi todo el ancho */
+        font-size: 12px; /* Reduce el tamaño del texto */
+        top: -100px; /* Ajusta la posición vertical */
+        left: 10px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .dropdown-content {
+        width: 80%; /* Contenido desplegable ocupa todo el ancho */
         left: 2.5%; /* Centra dentro del contenedor */
-        top: -110px; /* Ajusta la posición vertical */
+        top: -20px; /* Ajusta la posición vertical */
         left: 10px;
         margin-top: 5px; /* Espacio entre botón y contenido */
         width: 100px;
-        height: 400px;
+        font-size: 12px;
+        height: 200px;
     }
+
+    .dropdown-content2 {
+      width: 95%; /* Contenido desplegable ocupa todo el ancho */
+      left: 2.5%; /* Centra dentro del contenedor */
+      top: -20px; /* Ajusta la posición vertical */
+      left: 10px;
+      margin-top: 5px; /* Espacio entre botón y contenido */
+      width: 100px;
+      font-size: 12px;
+      height: 255px;
+  }
 
     .colombianlogo {
       position: relative;
