@@ -247,37 +247,6 @@
 
 
 
-  
-  @media (max-width: 942px) { /* Para tablets y pantallas medianas */
-    .dropbtn, .dropbtn2 {
-        width: 90%; /* Ocupan casi todo el ancho */
-        font-size: 14px; /* Ajusta el tamaño del texto */
-        left: auto;
-        right: auto; /* Centra el botón horizontalmente */
-        top: 100px; /* Ajusta la posición vertical */
-    }
-
-    .dropdown-content, .dropdown-content2 {
-        width: 90%; /* Ajusta el ancho del contenido desplegable */
-        left: 5%; /* Centra dentro del contenedor */
-        right: auto;
-        top: 140px; /* Ajusta la posición vertical para que esté debajo del botón */
-        margin-top: 10px; /* Añade espacio entre el botón y el contenido */
-        width: 440px;
-        height: 240px;
-    }
-
-    .dropdown {
-        left: auto; /* Resetea las posiciones absolutas */
-        top: 0;
-    }
-
-    .dropdown2 {
-        left: auto; /* Resetea las posiciones absolutas */
-        top: 0;
-    }
-}
-
 
 @media (max-width: 1600px) {
   .hero-container4 {
@@ -300,6 +269,48 @@
 }
 
 }
+@media (max-width: 1499px) {
+  .image-container2 {
+    position: relative;
+    left: 75%;
+    transform: translateY(-160%);
+  }
+  .linkedin {
+    position: relative; /* Esto asegura que no se vea afectado por el 'fixed' del h2 */
+    left: 25%;
+    top: 200px; /* AMOE STE COMANDO */
+  }
+}
+  
+@media (max-width: 942px) { /* Para tablets y pantallas medianas */
+  .dropbtn, .dropbtn2 {
+      width: 90%; /* Ocupan casi todo el ancho */
+      font-size: 14px; /* Ajusta el tamaño del texto */
+      left: auto;
+      right: auto; /* Centra el botón horizontalmente */
+      top: 100px; /* Ajusta la posición vertical */
+  }
+
+  .dropdown-content, .dropdown-content2 {
+      width: 90%; /* Ajusta el ancho del contenido desplegable */
+      left: 5%; /* Centra dentro del contenedor */
+      right: auto;
+      top: 140px; /* Ajusta la posición vertical para que esté debajo del botón */
+      margin-top: 10px; /* Añade espacio entre el botón y el contenido */
+      width: 440px;
+      height: 240px;
+  }
+
+  .dropdown {
+      left: auto; /* Resetea las posiciones absolutas */
+      top: 0;
+  }
+
+  .dropdown2 {
+      left: auto; /* Resetea las posiciones absolutas */
+      top: 0;
+  }
+}
 
 @media (max-width: 800px) {
   .image-container2 {
@@ -310,7 +321,7 @@
   .linkedin {
     position: relative; /* Esto asegura que no se vea afectado por el 'fixed' del h2 */
     left: 10%;
-    top: 580px; /* AMOE STE COMANDO */
+    top: 600px; /* AMOE STE COMANDO */
   }
   
   .heading-secondary-quienes-somos {
