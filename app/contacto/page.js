@@ -41,7 +41,7 @@ export default function About() {
 
         try {
             // Enviar los datos al servidor utilizando fetch
-            const response = await fetch('http://localhost:5000/submit', {
+            const response = await fetch('/api/sendEmail', { // Aquí cambiamos a la ruta de Next.js
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
