@@ -202,37 +202,6 @@
   
 
 
-  
-  @media (max-width: 942px) { /* Para tablets y pantallas medianas */
-    .dropbtn, .dropbtn2 {
-        width: 90%; /* Ocupan casi todo el ancho */
-        font-size: 14px; /* Ajusta el tamaño del texto */
-        left: auto;
-        right: auto; /* Centra el botón horizontalmente */
-        top: 100px; /* Ajusta la posición vertical */
-    }
-
-    .dropdown-content, .dropdown-content2 {
-        width: 90%; /* Ajusta el ancho del contenido desplegable */
-        left: 5%; /* Centra dentro del contenedor */
-        right: auto;
-        top: 140px; /* Ajusta la posición vertical para que esté debajo del botón */
-        margin-top: 10px; /* Añade espacio entre el botón y el contenido */
-        width: 440px;
-        height: 240px;
-    }
-
-    .dropdown {
-        left: auto; /* Resetea las posiciones absolutas */
-        top: 0;
-    }
-
-    .dropdown2 {
-        left: auto; /* Resetea las posiciones absolutas */
-        top: 0;
-    }
-}
-
 @media (max-width: 480px) {
   .navbar4 {
     flex-direction: column;
