@@ -1,0 +1,98 @@
+.pricing-container {
+  text-align: center;
+  background-color: #f0f4ff00;
+  padding: 2.2rem;
+  animation: fadeIn 1s forwards;
+  width: 100%; /* O usa px, vw, o un valor mayor */
+  margin: 0 auto; /* Centra el contenedor */
+}
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.boton{
+position: absolute;
+top: 90%;
+left: 28%;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  background:#121d357a;
+  border-radius: 8px;
+  border:rgba(255, 255, 255, 0.6); 
+  border-width: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 330px;
+  text-align: left;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.current-price {
+  color: #007BFF;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+button {
+  background: #cdad7d;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #a38251;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+.popular {
+  border: 2px solid #007bff00;
+}
+
+.ribbon {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background: #FF4136;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  transform: rotate(-45deg);
+  transform-origin: left top;
+}
+.hero-container3 {
+    margin-top: 65px; 
+}

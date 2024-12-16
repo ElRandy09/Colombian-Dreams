@@ -1,0 +1,303 @@
+/* Estilo del botón */
+.hero-container {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten mejor */
+    justify-content: center;
+    align-items: center;
+    background-image: url('/bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+  }
+
+  .image-container {
+    position: relative;
+    left: 82%;  /* Esto coloca la imagen en la parte derecha */
+    transform: translateY(-220%);
+  
+  }
+
+  .heading-primary-quienes-somos {
+    position: relative;
+    top: 160px;
+    font-size: 2.5rem; /* Ajusta el tamaño para pantallas más pequeñas */
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+    text-align: center;
+}
+  
+.heading-secondary-quienes-somos {
+  margin: 0 auto; /* Centra el texto horizontalmente */
+  padding: 1rem; /* Espacio interno para mejor legibilidad */
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: justify;
+  color: rgba(255, 255, 255);
+  position: relative;
+  top: 110px;
+  right: 10%;
+  max-width: 70%; /* Limita el ancho del texto */
+  animation: fadeIn 1s forwards;
+}
+
+
+  
+  .about-text-wrapper {
+    margin-bottom: 20rem; /* Esto mueve solo el contenedor */
+  }
+  
+  .linkedin {
+    font-size: 1rem; 
+    color: rgba(255, 255, 255); 
+    position: relative; /* Esto asegura que no se vea afectado por el 'fixed' del h2 */
+    left: 25%;
+    top: 380px; /* AMOE STE COMANDO */
+    text-align: justify;
+  }
+  
+  .hipervinculo{
+    color: #6ec2f0; /* Cambia el valor por el color que desees */
+    text-decoration: none; /* Si no deseas subrayado */
+  }
+  
+  .hipervinculo:hover {
+    color: #ff5733; /* Cambia el color cuando el usuario pase el ratón sobre el enlace */
+  }
+  
+  
+  .vision {
+    position: relative;
+    top: 166px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-align: center;
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 5rem;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #cdad7d;
+    position: absolute;
+    top: 30px; /* Ajusta la distancia desde el borde superior */
+    left: 40px; /* Ajusta la distancia desde el borde izquierdo */
+    z-index: 20; /* Asegúrate de que el logo esté encima de otros elementos */
+  }
+  
+
+.dropbtn {
+    background-color: rgba(18,30,53,255);
+    color: white;
+    width: 460px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 140px;
+    right: 370px;
+    animation: fadeIn 1s forwards;
+  }
+
+  .dropbtn2 {
+    background-color: rgba(18,30,53,255);
+    color: white;
+    width: 420px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 90px;
+    left: 82px;
+    animation: fadeIn 1s forwards;
+  }
+  .dropbtn:hover, .dropbtn2:hover {
+    background-color: rgba(16, 38, 78, 0.9); /* Cambia el color de fondo (opcional) */
+}
+  /* Estilo del contenedor desplegable */
+  .dropdown {
+    position: relative;
+    left: 310px;
+    top: -10px;
+    display: inline-block;
+  }
+
+  .dropdown2 {
+    position: relative;
+    left: -140px;
+    top: 40px;
+    display: inline-block;
+  }
+  
+  /* Estilo del contenido desplegable */
+  .dropdown-content {
+    background-color: #f9f9f9;
+    width: 460px;
+    height: 220px;
+    box-shadow: 0px 16px 16px rgba(18,30,53,255);
+    z-index: 1;
+    color: #333;
+    position: absolute;
+    top: 190px;
+    right: 370px;
+    animation: fadeIn 0.5s forwards;
+  }
+
+  .dropdown-content2 {
+    background-color: #f9f9f9;
+    width: 420px;
+    height: 220px;
+    box-shadow: 0px 16px 16px rgba(18,30,53,255);
+    z-index: 1;
+    color: #333;
+    position: absolute;
+    top: 140px;
+    left: 83px;
+    animation: fadeIn 0.5s forwards;
+  }
+  
+  .dropdown-content p {
+    margin: 0;
+    color: #333;
+    font-size: 15.2px;
+  }
+
+  .profile-image {
+    width: 300px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  
+.navbar2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+  position: relative;
+  top: 136px; /* Mueve el navbar hacia arriba */
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+.navbar-logo2 {
+  align-self: flex-start;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #cdad7d;
+  margin-right: auto;
+}
+
+.navbar-links2 {
+  font-size: 1.25rem;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  gap: 2rem; /* Espacio entre los enlaces */
+  align-items: center;
+}
+
+.navbar-link2 {
+  color: #cdad7d;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-link2:hover {
+  text-decoration: underline;
+  color: #a38251;
+}
+
+
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+
+  
+  @media (max-width: 942px) { /* Para tablets y pantallas medianas */
+    .dropbtn, .dropbtn2 {
+        width: 90%; /* Ocupan casi todo el ancho */
+        font-size: 14px; /* Ajusta el tamaño del texto */
+        left: auto;
+        right: auto; /* Centra el botón horizontalmente */
+        top: 100px; /* Ajusta la posición vertical */
+        width: 200px;
+        height: 50px;
+    }
+
+    .dropdown-content, .dropdown-content2 {
+        width: 90%; /* Ajusta el ancho del contenido desplegable */
+        left: 0%; /* Centra dentro del contenedor */
+        right: auto;
+        top: 140px; /* Ajusta la posición vertical para que esté debajo del botón */
+        margin-top: 10px; /* Añade espacio entre el botón y el contenido */
+        width: 200px;
+        height: 200px;
+    }
+
+    .dropdown {
+        left: auto; /* Resetea las posiciones absolutas */
+        top: 0;
+    }
+
+    .dropdown2 {
+        left: auto; /* Resetea las posiciones absolutas */
+        top: 0;
+    }
+    .image-container {
+      position: relative;
+      left: 10%;
+      transform: translateY(-100%);
+    
+    }
+}
+
+@media (max-width: 480px) { /* Para dispositivos móviles */
+    .dropbtn, .dropbtn2 {
+        width: 95%; /* Ocupan casi todo el ancho */
+        font-size: 12px; /* Reduce el tamaño del texto */
+        top: 100px; /* Ajusta la posición vertical */
+        left: -30px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .dropdown-content, .dropdown-content2 {
+        width: 95%; /* Contenido desplegable ocupa todo el ancho */
+        left: 2.5%; /* Centra dentro del contenedor */
+        top: 190px; /* Ajusta la posición vertical */
+        left: -30px;
+        margin-top: 5px; /* Espacio entre botón y contenido */
+        width: 100px;
+        height: 400px;
+    }
+
+    .image-container {
+      position: relative;
+      left: 10%;
+      transform: translateY(-100%);
+    
+    }
+}

@@ -1,0 +1,260 @@
+/* Estilo del botón */
+.hero-container {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten mejor */
+    justify-content: center;
+    align-items: center;
+    background-image: url('/bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+  }
+
+
+  .contactanos {
+    position: relative;
+    top: 10px;
+    font-size: 2.5rem; /* Ajusta el tamaño para pantallas más pequeñas */
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+    text-align: center;
+}
+  
+
+  .datos {
+    position: relative;
+    top: 20px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-align: center;
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 5rem;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #cdad7d;
+    position: absolute;
+    top: 30px; /* Ajusta la distancia desde el borde superior */
+    left: 40px; /* Ajusta la distancia desde el borde izquierdo */
+    z-index: 20; /* Asegúrate de que el logo esté encima de otros elementos */
+  }
+  
+  .profile-image {
+    width: 300px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  
+.navbar4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+  position: relative;
+  top: -40px; /* Mueve el navbar hacia arriba */
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+.navbar-logo4 {
+  align-self: flex-start;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #cdad7d;
+  margin-right: auto;
+}
+
+.navbar-links4 {
+  font-size: 1.25rem;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  gap: 2rem; /* Espacio entre los enlaces */
+  align-items: center;
+}
+
+.navbar-link4 {
+  color: #cdad7d;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-link4:hover {
+  text-decoration: underline;
+  color: #a38251;
+}
+
+
+.formulario-contacto {
+  position: relative;
+  top: 0px; /* Mueve hacia arriba */
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  animation: fadeIn 0.5s forwards;
+}
+
+
+
+.formulario-contacto .form-group {
+  margin-bottom: 15px;
+}
+
+.formulario-contacto label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.formulario-contacto input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.formulario-contacto input:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+.btn-submit {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+
+.input-group {
+  display: flex;
+  gap: 5px; /* Espacio entre los campos */
+  align-items: center; /* Alineación vertical */
+}
+
+.input-small {
+  width: 15% !important; /* Hace que el prefijo sea más pequeño */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.input-large {
+  width: 80% !important; /* Asegura que el número ocupe el resto del espacio */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.input-small:focus,
+.input-large:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+.phone-input {
+  width: 100%;  /* Ocupa el 100% del ancho del contenedor */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.phone-input:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+
+  
+  @media (max-width: 942px) { /* Para tablets y pantallas medianas */
+    .dropbtn, .dropbtn2 {
+        width: 90%; /* Ocupan casi todo el ancho */
+        font-size: 14px; /* Ajusta el tamaño del texto */
+        left: auto;
+        right: auto; /* Centra el botón horizontalmente */
+        top: 100px; /* Ajusta la posición vertical */
+    }
+
+    .dropdown-content, .dropdown-content2 {
+        width: 90%; /* Ajusta el ancho del contenido desplegable */
+        left: 5%; /* Centra dentro del contenedor */
+        right: auto;
+        top: 140px; /* Ajusta la posición vertical para que esté debajo del botón */
+        margin-top: 10px; /* Añade espacio entre el botón y el contenido */
+        width: 440px;
+        height: 240px;
+    }
+
+    .dropdown {
+        left: auto; /* Resetea las posiciones absolutas */
+        top: 0;
+    }
+
+    .dropdown2 {
+        left: auto; /* Resetea las posiciones absolutas */
+        top: 0;
+    }
+}
+
+@media (max-width: 480px) { /* Para dispositivos móviles */
+    .dropbtn, .dropbtn2 {
+        width: 95%; /* Ocupan casi todo el ancho */
+        font-size: 12px; /* Reduce el tamaño del texto */
+        top: 100px; /* Ajusta la posición vertical */
+        left: -30px;
+    }
+
+    .dropdown-content, .dropdown-content2 {
+        width: 95%; /* Contenido desplegable ocupa todo el ancho */
+        left: 2.5%; /* Centra dentro del contenedor */
+        top: 145px; /* Ajusta la posición vertical */
+        left: -28px;
+        margin-top: 5px; /* Espacio entre botón y contenido */
+        width: 420px;
+        height: 220px;
+    }
+
+    .image-container {
+      position: relative;
+      left: 82%;
+      transform: translateY(-168%);
+    
+    }
+}
