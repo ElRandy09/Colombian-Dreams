@@ -116,9 +116,9 @@ export default function About() {
                             </div>
                             <button className="btn-submit" type="submit">Enviar</button>
                         </form>
-                        <ul style={{ color: 'white' , animation: 'fadeIn 1s forwards'}}>▼ O agenda tu cita aquí ▼</ul>
+                        <ul className='agendar'>▼ O agenda tu cita aquí ▼</ul>
                         <button
-                  className="boton-inicio"
+                  className="boton-inicio2"
                   onClick={() => {
                     window.open(
                       "https://api.whatsapp.com/send/?phone=573229567177&text=Hola,%20quiero%20agendar%20una%20sesión.&type=phone_number&app_absent=0",

@@ -22,6 +22,12 @@
     text-align: center;
 }
   
+.agendar{
+  position: relative;
+  top: 15px;
+  color: white;
+  animation: fadeIn 1.5s forwards;
+}
 
   .datos {
     position: relative;
@@ -189,6 +195,26 @@
   border-color: #007BFF;
 }
 
+.boton-inicio2 {
+  margin-top: 2rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  background-color: #cdad7d;
+  color: rgb(255, 255, 255);
+  padding: 0.75rem 1.5rem;
+  transition: background-color 0.3s;
+  animation: fadeIn 1s forwards;
+}
+
+.boton-inicio2:hover {
+  background-color: #b89e68;
+}
+
+.boton-inicio2:focus {
+  outline: none;
+}
+
+
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -229,5 +255,13 @@
 .formulario-contacto{
   position: relative;
   top: -250px;
+}
+.agendar{
+  position: relative;
+  top: -230px;
+}
+.boton-inicio2{
+  position: relative;
+  top: -230px;
 }
 }
