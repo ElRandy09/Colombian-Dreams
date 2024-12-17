@@ -6,6 +6,7 @@ import Navbar from './navbar';
 import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
 import { useState } from 'react';
+import { color } from 'framer-motion';
 
 export default function About() {
     // Estado para almacenar el nombre, teléfono y correo
@@ -115,6 +116,18 @@ export default function About() {
                             </div>
                             <button className="btn-submit" type="submit">Enviar</button>
                         </form>
+                        <ul style={{ color: 'white' }}>▼ O agenda tu cita aquí ▼</ul>
+                        <button
+                  className="boton-inicio"
+                  onClick={() => {
+                    window.open(
+                      "https://api.whatsapp.com/send/?phone=573229567177&text=Hola,%20quiero%20agendar%20una%20sesión.&type=phone_number&app_absent=0",
+                      "_blank"
+                    );
+                  }}
+                >
+                  AGENDAR SESIÓN
+                </button>
                     </div>
                 </div>
             </div>

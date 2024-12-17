@@ -33,7 +33,7 @@ export default function Home() {
                   Transforma tus ideas en realidades
                 </h1>
                 <h2 className="heading-secondary-inicio">
-                  Con un enfoque en la gestión estratégica y humana de proyectos, te acompaño
+                  Con un enfoque en la gestión estratégica y humana de proyectos, te acompañamos
                 </h2>
                 <h2 className="heading-secondary-inicio">
                   en cada paso para que logres el éxito.
