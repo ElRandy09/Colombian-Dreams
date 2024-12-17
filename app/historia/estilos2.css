@@ -331,6 +331,8 @@
       position: relative;
       top: -230px;
       left: 10px;
+      text-align: center;
+      max-width: 100%;
     }
   
     .vision5{

@@ -15,8 +15,8 @@ export default function About() {
                 <div className="container2">
                     <Navbar />
                     <div className="text-main">
-                        <h1 className="heading-primary-quienes-somos3">¿Qué ofrecemos?</h1>
-                        <h3 className="vision3">Nuestros servicios son 100% seguros.</h3>
+                        <h1 className="heading-primary-quienes-somos3">Transformamos tus ideas en proyectos exitosos</h1>
+                        <h3 className="vision3">En Colombian dreams ayudamos a personas y empresas a planificar, estructurar y ejecutar proyectos de cualquier tipo, desde metas personales hasta grandes retos corporativos. Combinamos herramientas técnicas de gestión con un enfoque cercano y humano, para acompañarte en cada paso y asegurarnos de que logres tus objetivos con claridad, eficiencia y propósito.</h3>
                         <div className="pricing-container">
                          <div className="hero-container3">
                             <div className="pricing-cards">
@@ -49,6 +49,7 @@ export default function About() {
                                         <li> 🛠️ Sesión de diagnóstico inicial para aclarar objetivos y prioridades. </li>
                                         <li>📋 Hoja de ruta con los pasos iniciales (con plantillas incluidas).    </li>
                                         <li>🚀 Herramientas digitales recomendadas para organizarte.     </li>
+                                        <li>‎ </li>
                                         <button className='boton'onClick={() => {
     window.open(
       "https://api.whatsapp.com/send/?phone=573229567177&text=Hola,%20quiero%20mas%20información%20sobre%20el%20plan%20starter.&type=phone_number&app_absent=0",
@@ -68,6 +69,7 @@ export default function About() {
                                         <li>📆 Consultoría estratégica (2 sesiones al mes).   </li>
                                         <li>🔍 Evaluación de avances y ajustes al plan.   </li>
                                         <li>⚡ Análisis de riesgos y guía para mantener el enfoque.     </li>
+                                        <li>‎ </li>
                                         <button className='boton' onClick={() => {
     window.open(
       "https://api.whatsapp.com/send/?phone=573229567177&text=Hola,%20quiero%20mas%20información%20sobre%20el%20plan%20builder.&type=phone_number&app_absent=0",
@@ -87,6 +89,7 @@ export default function About() {
                                         <li>📈 Gestión activa: lidero reuniones, asigno tareas y superviso el avance.     </li>
                                         <li>📝 Reportes periódicos para medir resultados.    </li>
                                         <li>🎯 Sesión final para evaluar logros y aprendizajes.    </li>
+                                        <li>‎ </li>
                                         <button className='boton' onClick={() => {
     window.open(
       "https://api.whatsapp.com/send/?phone=573229567177&text=Hola,%20quiero%20mas%20información%20sobre%20el%20plan%20visionary.&type=phone_number&app_absent=0",

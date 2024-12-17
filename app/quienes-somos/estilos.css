@@ -34,16 +34,14 @@
   padding: 1rem; /* Espacio interno para mejor legibilidad */
   font-size: 1.2rem;
   line-height: 1.5;
-  text-align: justify;
   color: rgba(255, 255, 255);
   position: relative;
   top: 110px;
   right: 15%;
   max-width: 70%; /* Limita el ancho del texto */
   animation: fadeIn 1s forwards;
+  text-align: justify;
 }
-
-
   
   .about-text-wrapper {
     margin-bottom: 20rem; /* Esto mueve solo el contenedor */
@@ -89,14 +87,14 @@
     font-weight: bold;
     color: #cdad7d;
     position: absolute;
-    top: 30px; /* Ajusta la distancia desde el borde superior */
-    left: 40px; /* Ajusta la distancia desde el borde izquierdo */
-    z-index: 20; /* Asegúrate de que el logo esté encima de otros elementos */
+    top: 30px; 
+    left: 40px; 
+    z-index: 20; 
   }
   
 
   .profile-image {
-    width: 300px; /* Ajusta el tamaño de la imagen */
+    width: 300px; /*tamaño de la imagen */
     height: auto;
     opacity: 0;
     animation: fadeIn 1s forwards;
@@ -146,8 +144,7 @@
 
 .containerlocked {
   width: 100%;
-
-  max-width: 1300px; /* Limitar el tamaño máximo */
+  max-width: 1300px; /* Limitar el tamaño */
   margin: 0 auto; /* Centrar el contenedor */
   padding: 0 20px; /* Opcional, para agregar margen interno */
 }
@@ -174,6 +171,18 @@
   .hero-container4 {
     height: auto; /* Permite que el contenedor se ajuste al contenido */
     overflow: auto; /* Habilita el scroll en pantallas pequeñas */
+    
+  }
+
+  .heading-secondary-quienes-somos {
+    margin: 0 auto; /* Centra el texto horizontalmente */
+    padding: 1rem; /* Espacio interno para mejor legibilidad */
+    font-size: 1.2rem;
+    position: relative;
+    top: 110px;
+    right: 0%;
+    max-width: 100%; /* Limita el ancho del texto */
+    animation: fadeIn 1s forwards;
   }
 }
 
@@ -232,8 +241,9 @@
     position: relative;
     top: 110px;
     right: 0%;
-    max-width: 70%; /* Limita el ancho del texto */
+    max-width: 100%; /* Limita el ancho del texto */
     animation: fadeIn 1s forwards;
+    text-align: center;
   }
   
   }
@@ -241,13 +251,14 @@
   @media (max-width: 500px) {
     .image-container2 {
       position: relative;
-      left: 15%;
-      transform: translateY(-50%);
+      width: 200px;
+      left: 26% !important;
+      top: -180px;
     }
     .linkedin {
-      position: relative; /* Esto asegura que no se vea afectado por el 'fixed' del h2 */
+      position: relative;
       left: 0%;
-      top: 600px; /* AMOE STE COMANDO */
+      top: 100px !important; /* AMOE STE COMANDO */
     }
     
     .heading-secondary-quienes-somos {
@@ -257,7 +268,7 @@
       position: relative;
       top: 110px;
       right: 0%;
-      max-width: 70%; /* Limita el ancho del texto */
+      max-width: 100%; /* Limita el ancho del texto */
       animation: fadeIn 1s forwards;
     }
     

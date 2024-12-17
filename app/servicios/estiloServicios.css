@@ -46,16 +46,8 @@
   .about-text-wrapper {
     margin-bottom: 20rem; /* Esto mueve solo el contenedor */
   }
-  
-  .linkedin {
-    font-size: 1rem; 
-    color: rgba(255, 255, 255); 
-    position: relative; /* Esto asegura que no se vea afectado por el 'fixed' del h2 */
-    left: 25%;
-    top: 380px; /* AMOE STE COMANDO */
-    text-align: justify;
-  }
-  
+
+
   .hipervinculo{
     color: #6ec2f0; /* Cambia el valor por el color que desees */
     text-decoration: none; /* Si no deseas subrayado */

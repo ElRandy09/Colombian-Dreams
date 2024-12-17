@@ -33,8 +33,6 @@ export default function About() {
                                     Porque en la gestión de proyectos no solo importa el destino; importa cómo llegamos allí y quién está a tu lado en el proceso.
                                     Si buscas no solo alcanzar tus metas, sino convertirlas en éxitos que impacten tu vida, has llegado al lugar indicado.
                                 </p>
-
-                                <h2 className='texto3'></h2>
                                 <h4 className="linkedin">
                                     Para más información sobre su trayectoria profesional, consulta su
                                     <a className='hipervinculo' href="https://www.linkedin.com/in/oscar-benjumea" target="_blank"> LinkedIn aquí</a>

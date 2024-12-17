@@ -23,23 +23,23 @@ const Navbar = () => {
     >
       <div className="navbar-links3">
         <motion.div variants={linkVariants} whileHover="hover">
-          <Link href="/quienes-somos" className="navbar-link3">
-            Nuestro equipo
-          </Link>
-        </motion.div>
-        <motion.div variants={linkVariants} whileHover="hover">
           <Link href="/servicios" className="navbar-link3">
             Servicios
           </Link>
         </motion.div>
         <motion.div variants={linkVariants} whileHover="hover">
-          <Link href="/contacto" className="navbar-link3">
-            Contacto
+          <Link href="/historia" className="navbar-link3">
+          ¿Quiénes somos?
           </Link>
         </motion.div>
         <motion.div variants={linkVariants} whileHover="hover">
-          <Link href="/historia" className="navbar-link3">
-            ¿Quiénes somos?
+          <Link href="/quienes-somos" className="navbar-link3">
+          Nuestro equipo
+          </Link>
+        </motion.div>
+        <motion.div variants={linkVariants} whileHover="hover">
+          <Link href="/contacto" className="navbar-link3">
+            Contacto
           </Link>
         </motion.div>
       </div>
