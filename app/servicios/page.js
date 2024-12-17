@@ -82,11 +82,11 @@ export default function About() {
                                     <h3><b> 💎 Plan Visionary: Gestión Total de tu Proyecto</b></h3>
                                    
                                     <ul>
-                                    <li>Perfecto para: Proyectos complejos o personas que quieren delegar la gestión completa.</li>
+                                    <li>Perfecto para: Proyectos  Robustos y empresariales / corporativos.</li>
                                         <li><b>Lo que obtienes:</b></li>
                                         <li> 🌟 Todo lo del Plan Builder.    </li>
                                         <li>🗂️ Planificación integral (cronograma, recursos, presupuesto).   </li>
-                                        <li>📈 Gestión activa: lidero reuniones, asigno tareas y superviso el avance.     </li>
+                                        <li>📈 Liderazgo de reuniones, asignacion de tareas y supervisión de avances     </li>
                                         <li>📝 Reportes periódicos para medir resultados.    </li>
                                         <li>🎯 Sesión final para evaluar logros y aprendizajes.    </li>
                                         <li>‎ </li>

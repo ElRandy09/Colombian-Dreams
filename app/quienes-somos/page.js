@@ -33,6 +33,7 @@ export default function About() {
                                     Porque en la gestión de proyectos no solo importa el destino; importa cómo llegamos allí y quién está a tu lado en el proceso.
                                     Si buscas no solo alcanzar tus metas, sino convertirlas en éxitos que impacten tu vida, has llegado al lugar indicado.
                                 </p>
+   
                                 <h4 className="linkedin">
                                     Para más información sobre su trayectoria profesional, consulta su
                                     <a className='hipervinculo' href="https://www.linkedin.com/in/oscar-benjumea" target="_blank"> LinkedIn aquí</a>
@@ -43,6 +44,19 @@ export default function About() {
                     <div className="image-container2">
                         <img src="/foto.jpeg" alt="Oscar Benjumea" className="profile-image" />
                     </div>
+                    <img className='boton-inicio3'
+  src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+  alt="Agendar sesión por WhatsApp"
+  style={{ cursor: "pointer"}}
+  onClick={() => {
+    window.open(
+      "https://api.whatsapp.com/send/?phone=573229567177&text=Hola,%20quiero%20agendar%20una%20sesión.&type=phone_number&app_absent=0",
+      "_blank"
+    );
+  }}
+/>
+<p className='contacto'>Contactanos</p>
+
                 </div>
             </div>
         </>

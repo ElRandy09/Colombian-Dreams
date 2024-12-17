@@ -17,7 +17,7 @@ export default async function handler(req, res) {
 
     const mailOptions = {
       from: 'juandimoru@gmail.com', // Tu correo personal (de donde se envía el correo)
-      to: 'juandimoru@gmail.com', // El correo donde quieres recibir los datos (también tu correo)
+      to: 'info@colombiandreams.co', // El correo donde quieres recibir los datos (también tu correo)
       subject: 'Nuevo formulario de contacto',
       text: `Nombre: ${name}\nTeléfono: ${phone}\nCorreo: ${email}`,
     };
