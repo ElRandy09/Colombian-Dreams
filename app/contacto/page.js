@@ -116,7 +116,7 @@ export default function About() {
                             </div>
                             <button className="btn-submit" type="submit">Enviar</button>
                         </form>
-                        <ul style={{ color: 'white' }}>▼ O agenda tu cita aquí ▼</ul>
+                        <ul style={{ color: 'white' , animation: 'fadeIn 1s forwards'}}>▼ O agenda tu cita aquí ▼</ul>
                         <button
                   className="boton-inicio"
                   onClick={() => {
