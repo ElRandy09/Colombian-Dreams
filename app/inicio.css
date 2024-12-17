@@ -1,118 +1,108 @@
-
 .boton-inicio {
-    margin-top: 2rem;
-    font-size: 1.125rem;
-    font-weight: 500;
-    background-color: #cdad7d;
-    color: rgb(255, 255, 255);
-    padding: 0.75rem 1.5rem;
-    transition: background-color 0.3s;
-    animation: fadeIn 1s forwards;
-  }
-  
-  .boton-inicio:hover {
-    background-color: #b89e68;
-  }
-  
-  .boton-inicio:focus {
-    outline: none;
-  }
+  margin-top: 2rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  background-color: #cdad7d;
+  color: rgb(255, 255, 255);
+  padding: 0.75rem 1.5rem;
+  transition: background-color 0.3s;
+  animation: fadeIn 1s forwards;
+}
 
-  .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1.25rem;
-    position: relative;
-    top: -250px; /* Mueve el navbar hacia arriba */
-    width: 100%;
-    z-index: 10;
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-  
-  
-  
-  .navbar-logo {
-    align-self: flex-start;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #cdad7d;
-    margin-right: auto;
-  }
-  
-  .navbar-links {
-    font-size: 1.25rem;
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    gap: 2rem; /* Espacio entre los enlaces */
-    align-items: center;
-  }
-  
-  .navbar-link {
-    color: #cdad7d;
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .navbar-link:hover {
-    text-decoration: underline;
-    color: #a38251;
-  }
-  
+.boton-inicio:hover {
+  background-color: #b89e68;
+}
+
+.boton-inicio:focus {
+  outline: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+  position: relative;
+  top: -28vh; /* Ajustar posición de forma dinámica */
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.navbar-logo {
+  align-self: flex-start;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #cdad7d;
+  margin-right: auto;
+}
+
+.navbar-links {
+  font-size: 1.25rem;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navbar-link {
+  color: #cdad7d;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+  color: #a38251;
+}
+
 .heading-primary-inicio {
-    margin-top: -8rem;
-    margin-bottom: 1rem;
-    font-size: 3rem;
-    font-weight: bold;
-    opacity: 0;
-    animation: fadeIn 0.5s forwards;
+  margin-top: -8rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+.heading-secondary-inicio {
+  margin-top: 0rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  display: block;
+  color: white;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #cdad7d;
+  position: absolute;
+  top: 5vh; /* Usar vh para una distancia más dinámica */
+  left: 5vw; /* Usar vw para adaptarse mejor a la pantalla */
+  z-index: 20;
+}
+
+@media (max-width: 819px) {
+  .navbar {
+    top: -20vh; /* Ajustar top con unidades relativas */
   }
-  
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    top: -20vh; /* Ajuste con vh */
+  }
+  .heading-primary-inicio {
+    top: -10vh; /* Ajuste proporcional con vh */
+  }
   .heading-secondary-inicio {
-    margin-top: 0rem;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    text-align: center;
-    display: block;
-   color: white;
-    opacity: 0;
-    animation: fadeIn 1s forwards;
+    top: -10vh;
   }
-
-  
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #cdad7d;
-    position: absolute;
-    top: 30px; /* Ajusta la distancia desde el borde superior */
-    left: 40px; /* Ajusta la distancia desde el borde izquierdo */
-    z-index: 20; /* Asegúrate de que el logo esté encima de otros elementos */
+  .boton-inicio {
+    top: -10vh;
   }
-
-  @media (max-width: 819px) {
-    .navbar{
-      position: relative;
-      top: -160px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-.navbar{
-  position: relative;
-  top: -220px;
 }
-.heading-primary-inicio{
-  position: relative;
-  top: -90px;
-}
-.heading-secondary-inicio{
-  position: relative;
-  top: -90px;
-}
-.boton-inicio{
-  position: relative;
-  top: -90px;
-}
-  }
-

@@ -1,78 +1,83 @@
-/* Estilo del botón */
-.hero-container {
-    min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se ajusten mejor */
-    justify-content: center;
-    align-items: center;
-    background-image: url('/bg.png');
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-  }
-
-
-  .contactanos {
-    position: relative;
-    top: 10px;
-    font-size: 2.5rem; /* Ajusta el tamaño para pantallas más pequeñas */
-    font-weight: bold;
-    opacity: 0;
-    animation: fadeIn 1.5s forwards;
-    text-align: center;
+/* Root font size */
+html {
+  font-size: 100%; /* Esto asegura que los valores en rem sean proporcionales */
 }
-  
-.agendar{
+
+body {
+  font-family: 'Arial', sans-serif; /* Asegúrate de que la fuente se ajuste bien */
+}
+
+/* Estilo del contenedor principal */
+.hero-container {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/bg.png');
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.contactanos {
   position: relative;
-  top: 15px;
+  top: 10vh; /* Usa vh para adaptarse al viewport */
+  font-size: 2rem; /* Usa rem en lugar de px */
+  font-weight: bold;
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+  text-align: center;
+}
+
+.agendar {
+  position: relative;
+  top: 11vh; /* Usa vh en lugar de px */
   color: white;
   animation: fadeIn 1.5s forwards;
 }
 
-  .datos {
-    position: relative;
-    top: 20px;
-    font-size: 1.25rem;
-    line-height: 1.5;
-    text-align: center;
-    display: block;
-    color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 5rem;
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-  }
-  
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #cdad7d;
-    position: absolute;
-    top: 30px; /* Ajusta la distancia desde el borde superior */
-    left: 40px; /* Ajusta la distancia desde el borde izquierdo */
-    z-index: 20; /* Asegúrate de que el logo esté encima de otros elementos */
-  }
-  
-  .profile-image {
-    width: 300px; /* Ajusta el tamaño de la imagen */
-    height: auto;
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-  }
-  
-  
+.datos {
+  position: relative;
+  top: 10vh; /* Usa vh en lugar de px */
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-align: center;
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 5rem;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #cdad7d;
+  position: absolute;
+  top: 3vh; /* Usa vh en lugar de px */
+  left: 2rem; /* Usa rem en lugar de px */
+  z-index: 20;
+}
+
+.profile-image {
+  width: 20rem; /* Usa rem en lugar de px */
+  height: auto;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
 .navbar4 {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1.25rem;
   position: relative;
-  top: -40px; /* Mueve el navbar hacia arriba */
+  top: 10vh;
   width: 100%;
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.2);
 }
-
-
 
 .navbar-logo4 {
   align-self: flex-start;
@@ -87,7 +92,7 @@
   display: flex;
   flex-grow: 1;
   justify-content: center;
-  gap: 2rem; /* Espacio entre los enlaces */
+  gap: 2rem;
   align-items: center;
 }
 
@@ -101,36 +106,33 @@
   color: #a38251;
 }
 
-
 .formulario-contacto {
   position: relative;
-  top: 0px; /* Mueve hacia arriba */
+  top: 10vh;
   margin-left: auto;
   margin-right: auto;
   background: #ffffff;
-  padding: 20px;
+  padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 400px;
+  max-width: 30rem; /* Usa rem en lugar de px */
   animation: fadeIn 0.5s forwards;
 }
 
-
-
 .formulario-contacto .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
 }
 
 .formulario-contacto label {
   display: block;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 1rem;
 }
 
 .formulario-contacto input {
   width: 100%;
-  padding: 10px;
+  padding: 1rem;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -144,7 +146,7 @@
   background-color: #007BFF;
   color: white;
   border: none;
-  padding: 10px 15px;
+  padding: 1rem 1.5rem;
   border-radius: 4px;
   cursor: pointer;
   width: 100%;
@@ -156,23 +158,22 @@
   background-color: #0056b3;
 }
 
-
 .input-group {
   display: flex;
-  gap: 5px; /* Espacio entre los campos */
-  align-items: center; /* Alineación vertical */
+  gap: 1rem;
+  align-items: center;
 }
 
 .input-small {
-  width: 15% !important; /* Hace que el prefijo sea más pequeño */
-  padding: 10px;
+  width: 15% !important;
+  padding: 1rem;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
 .input-large {
-  width: 80% !important; /* Asegura que el número ocupe el resto del espacio */
-  padding: 10px;
+  width: 80% !important;
+  padding: 1rem;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -184,8 +185,8 @@
 }
 
 .phone-input {
-  width: 100%;  /* Ocupa el 100% del ancho del contenedor */
-  padding: 10px;
+  width: 100%;
+  padding: 1rem;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -196,12 +197,12 @@
 }
 
 .boton-inicio2 {
-  margin-top: 2rem;
+  margin-top: 8rem;
   font-size: 1.125rem;
   font-weight: 500;
   background-color: #cdad7d;
   color: rgb(255, 255, 255);
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   transition: background-color 0.3s;
   animation: fadeIn 1s forwards;
 }
@@ -214,26 +215,23 @@
   outline: none;
 }
 
-
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-2rem);
   }
-  
-
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 @media (max-width: 480px) {
   .navbar4 {
     flex-direction: column;
-    padding: 0.75rem;
+    padding: 1rem;
     width: 100%;
-    top: -210px;
+    top: -20vh;
   }
   
   .navbar-links4 {
@@ -242,26 +240,28 @@
     text-align: center;
   }
 
-  .contactanos{
+  .contactanos {
     position: relative;
-    top: -200px;
+    top: -20vh;
   }
 
-  .datos{
+  .datos {
     position: relative;
-    top: -200px;
+    top: -20vh;
   }
 
-.formulario-contacto{
-  position: relative;
-  top: -250px;
-}
-.agendar{
-  position: relative;
-  top: -230px;
-}
-.boton-inicio2{
-  position: relative;
-  top: -230px;
-}
+  .formulario-contacto {
+    position: relative;
+    top: -25vh;
+  }
+
+  .agendar {
+    position: relative;
+    top: -25vh;
+  }
+
+  .boton-inicio2 {
+    position: relative;
+    top: -35vh;
+  }
 }

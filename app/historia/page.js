@@ -65,7 +65,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="colombianlogo">
-                    <img src="/logo.jpeg" alt="Logo" className="profile-image" />
+                    <img src="/logo.jpg" alt="Logo" className="profile-image" />
                 </div>
                 </div>
             </div>

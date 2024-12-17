@@ -14,8 +14,8 @@
 
   .colombianlogo {
     position: relative;
-    left: 82%;  /* Esto coloca la imagen en la parte derecha */
-    transform: translateY(-220%);
+    left: 60rem;  /* Esto coloca la imagen en la parte derecha */
+    top: -30rem;
   
   }
 
@@ -252,8 +252,8 @@
     }
     .colombianlogo {
       position: relative;
-      left: 7%;
-      transform: translateY(-80%);
+      left: 107vh;
+      top: -50vh;
     
     }
 
@@ -305,7 +305,7 @@
     .colombianlogo {
       position: relative;
       left: 15%;
-      transform: translateY(-220%);
+      top: -55vh;
     
     }
 

@@ -108,7 +108,7 @@ h3{
   align-items: center;
   padding: 1.25rem;
   position: relative;
-  top: 136px; /* Mueve el navbar hacia arriba */
+  top: 12.3vh; /* Mueve el navbar hacia arriba */
   width: 100%;
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.2);
