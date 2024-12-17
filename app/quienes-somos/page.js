@@ -24,8 +24,8 @@ export default function About() {
                                     Especialista en Gerencia de Proyectos y profesional en Mercadeo, Óscar cuenta con una sólida trayectoria en la dirección e implementación de proyectos en el sector financiero.
                                 </h2>
                                 <p className="heading-secondary-quienes-somos">
-                                    Mi experiencia abarca áreas clave como sostenibilidad, planeación estratégica, comercial, gestión de riesgos, operaciones, capacitación y mejora de procesos.
-                                    Pero mi verdadero diferencial no solo radica en su experiencia técnica, sino en mi habilidad para conectar contigo de manera auténtica y cercana. Yo entiendo que detrás de cada proyecto hay personas con historias, aspiraciones y retos únicos. Por eso, mi enfoque va más allá de los números y las estrategias: se trata de acompañarte, de escucharte y de trabajar contigo como un verdadero equipo.
+                                    Su experiencia abarca áreas clave como sostenibilidad, planeación estratégica, comercial, gestión de riesgos, operaciones, capacitación y mejora de procesos.
+                                    Pero su verdadero diferencial no solo radica en su experiencia técnica, sino en su habilidad para conectar contigo de manera auténtica y cercana. Entendemos que detrás de cada proyecto hay personas con historias, aspiraciones y retos únicos. Por eso, nuestro enfoque va más allá de los números y las estrategias: se trata de acompañarte, de escucharte y de trabajar contigo como un verdadero equipo.
                                 </p>
 
                                 <p className="heading-secondary-quienes-somos">
