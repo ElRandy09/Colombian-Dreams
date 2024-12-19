@@ -14,6 +14,7 @@
     max-width: 1500px; /* Limitar el tamaño máximo */
     margin: 0 auto; /* Centrar el contenedor */
     padding: 0 20px; /* Opcional, para agregar margen interno */
+    
   }
 
   .colombianlogo {
@@ -185,7 +186,7 @@
   text-align: center;
   padding: 1.5rem 0;
   position: relative;
-  bottom: 6rem;
+  bottom: 0rem;
   width: 100%;
 }
 
@@ -287,5 +288,8 @@
     .vision5{
       position: relative;
       top: 10vh;
+    }
+    .footerHistoria{
+      bottom: 2rem;
     }
 }
