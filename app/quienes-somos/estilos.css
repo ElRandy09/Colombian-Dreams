@@ -8,12 +8,13 @@
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .container4 {
   width: 100%;
   max-width: 1300px; /* Limitar el tamaño máximo */
-  height: 100vh;
+  max-height: 100vh;
 }
   .image-container2 {
     position: relative;
@@ -231,7 +232,7 @@
   left: -90px;
 }
 .footerQuienes{
-  bottom: -10rem;
+  bottom: 0rem;
 }
 }
 
@@ -370,6 +371,10 @@
       top: -180px;
       left: 200px;
     }
+
+    .footerQuienes{
+      bottom: -60rem;
+    }
   }
 
   
@@ -428,6 +433,9 @@ top: -170px;
     color: white;
     top: -480px;
     left: 160px;
+  }
+  .footerQuienes{
+    bottom: -60rem;
   }
 }
 
