@@ -122,13 +122,13 @@
     font-size: 1.5rem;
     font-weight: bold;
     color: #cdad7d;
-    position: absolute;
     top: 30px; /* Ajusta la distancia desde el borde superior */
     left: 40px; /* Ajusta la distancia desde el borde izquierdo */
     z-index: 20; /* Asegúrate de que el logo esté encima de otros elementos */
   }
   
 
+  
   .profile-image {
     width: 300px; /* Ajusta el tamaño de la imagen */
     height: auto;

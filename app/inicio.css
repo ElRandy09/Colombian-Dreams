@@ -87,11 +87,10 @@
   font-weight: bold;
   color: #cdad7d;
   position: absolute;
-  top: 5vh; /* Usar vh para una distancia más dinámica */
-  left: 5vw; /* Usar vw para adaptarse mejor a la pantalla */
-  z-index: 20;
+  top: 30px; /* Ajusta la distancia desde el borde superior */
+  left: 40px; /* Ajusta la distancia desde el borde izquierdo */
+  z-index: 20; /* Asegúrate de que el logo esté encima de otros elementos */
 }
-
 .footer {
   background-color: #333;
   color: #fff;

@@ -84,18 +84,6 @@
   }
   
 
-
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #cdad7d;
-    position: absolute;
-    top: 30px; 
-    left: 40px; 
-    z-index: 20; 
-  }
-  
-
   .profile-image {
     width: 300px; /*tamaño de la imagen */
     height: auto;
@@ -192,6 +180,16 @@
   text-decoration: underline;
 }
 
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #cdad7d;
+  position: absolute;
+  top: 30px; /* Ajusta la distancia desde el borde superior */
+  left: 40px; /* Ajusta la distancia desde el borde izquierdo */
+  z-index: 20; /* Asegúrate de que el logo esté encima de otros elementos */
+}
+
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -240,26 +238,26 @@
   .image-container2 {
     position: relative;
     left: 75%;
-    transform: translateY(-160%);
+    transform: translateY(-100%);
   }
   .linkedin {
-    position: relative; /* Esto asegura que no se vea afectado por el 'fixed' del h2 */
+    position: relative;
     left: 72.2%;
-    top: 110px; /* AMOE STE COMANDO */
+    top: 110px; 
   }
   .boton-inicio3 {
     position: relative;
-    top: -700px;
-    left: 0px;
-    width: 90px; /* Ajusta según lo necesites */
-    height: 90px; /* Ajusta según lo necesites */
+    top: -25rem;
+    left: 2rem;
+    width: 90px; 
+    height: 90px; 
   }
   
   .contacto{
     position: relative;
     color: white;
-    top: -700px;
-    left: 0px;
+    top: -25rem;
+    left: 1.8rem;
   }
 }
   
@@ -267,52 +265,59 @@
   .image-container2 {
     position: relative;
     left: 70%;
-    transform: translateY(-193%);
+    transform: translateY(-120%);
   }
   .linkedin {
-    position: relative; /* Esto asegura que no se vea afectado por el 'fixed' del h2 */
+    position: relative; 
     left: 73%;
     top: -20px; /* AMOE STE COMANDO */
     max-width: 20%;
   }
   .boton-inicio3 {
     position: relative;
-    top: -700px;
-    left: 70px;
-    width: 90px; /* Ajusta según lo necesites */
-    height: 90px; /* Ajusta según lo necesites */
+    top: -25rem;
+    left: 5rem;
+    width: 90px; 
+    height: 90px; 
   }
   
   .contacto{
     position: relative;
     color: white;
-    top: -700px;
-    left: 70px;
+    top: -25rem;
+    left: 5rem;
   }
   .heading-secondary-quienes-somos {
-    margin: 0 auto; /* Centra el texto horizontalmente */
-    padding: 1rem; /* Espacio interno para mejor legibilidad */
+    margin: 0 auto; 
+    padding: 1rem; 
     font-size: 1.2rem;
     position: relative;
     top: 110px;
     right: 15%;
-    max-width: 60%; /* Limita el ancho del texto */
+    max-width: 60%; 
     animation: fadeIn 1s forwards;
     text-align: left;
+  }
+  .container4 {
+    width: 100%;
+    max-height: 100vh;
   }
 }
 
 
-@media (max-width: 970px) {
+@media (max-width: 1000px) {
   .image-container2 {
     position: relative;
-    left: 35%;
-    transform: translateY(-68%);
+    left: 41%;
+    top: 25rem;
+    width: 200px; /* Ancho de la imagen */
+    height: 300px; /* Alto de la imagen */
+   
   }
   .linkedin {
-    position: relative; /* Esto asegura que no se vea afectado por el 'fixed' del h2 */
+    position: relative;
     left: 42%;
-    top: 570px; /* AMOE STE COMANDO */
+    top: 28rem; /* AMOE STE COMANDO */
     max-width: 20%;
   }
   
@@ -327,53 +332,112 @@
     animation: fadeIn 1s forwards;
     text-align: justify;
   }
+
+  .container4 {
+    width: 100%;
+    max-height: 100vh;
+    
+  }
+  .footerQuienes{
+    bottom: -12rem;
+  }
   
+  .boton-inicio3 {
+    position: relative;
+    top: -15rem;
+    left: 5rem;
+    width: 90px; 
+    height: 90px; 
+  }
+  
+  .contacto{
+    position: relative;
+    color: white;
+    top: -15rem;
+    left: 5rem;
+  }
   }
 
   @media (max-width: 800px) {
     .image-container2 {
       position: relative;
-      left: 32%;
-      transform: translateY(-62%);
+      left: 40%;
+      top: 27rem;
     }
     .linkedin {
-      position: relative; /* Esto asegura que no se vea afectado por el 'fixed' del h2 */
-      left: 33%;
-      top: 570px; /* AMOE STE COMANDO */
+      position: relative; 
+      left: 32%;
+      top: 27rem; /* AMOE STE COMANDO */
       max-width: 40%;
     }
-    
+    .footerQuienes{
+      bottom: -14rem;
+    } 
   }
-
-  @media (max-width: 530px) {
+  @media (max-width: 740px) {
     .image-container2 {
       position: relative;
-      left: 20%;
-      transform: translateY(-68%);
+      left: 38%;
+      top: 25rem;
     }
     .linkedin {
-      position: relative; /* Esto asegura que no se vea afectado por el 'fixed' del h2 */
-      left: 31%;
-      top: 570px; /* AMOE STE COMANDO */
+      position: relative; 
+      left: 32%;
+      top: 27rem; /* AMOE STE COMANDO */
+      max-width: 40%;
+    }
+    .footerQuienes{
+      bottom: -14rem;
+    } 
+  }
+
+  @media (max-width: 680px) {
+    .image-container2 {
+      position: relative;
+      left: 38%;
+      top: 25rem;
+    }
+    .linkedin {
+      position: relative; 
+      left: 32%;
+      top: 27rem; /* AMOE STE COMANDO */
+      max-width: 40%;
+    }
+    .footerQuienes{
+      bottom: -27rem;
+    } 
+  }
+
+
+  @media (max-width: 540px) {
+    .image-container2 {
+      position: relative;
+      left: 33%;
+      transform: translateY(-110%);
+    }
+    .linkedin {
+      position: relative; 
+      left: 31.5%;
+      top: 29rem; /* AMOE STE COMANDO */
       max-width: 40%;
     }
     .boton-inicio3 {
       position: relative;
-      top: -180px;
-      left: 210px;
-      width: 70px; /* Ajusta según lo necesites */
-      height: 70px; /* Ajusta según lo necesites */
+      top: 13rem;
+      left: 15.5rem;
+      width: 70px; 
+      height: 70px; 
     }
     
     .contacto{
       position: relative;
       color: white;
-      top: -180px;
-      left: 200px;
+      top: 13rem;
+      left: 14.7rem;
     }
 
     .footerQuienes{
-      bottom: -60rem;
+      bottom: -50rem;
     }
   }
 
@@ -385,7 +449,7 @@
     flex-direction: column;
     padding: 0.75rem;
     width: 100%;
-    top: -210px;
+    top: 6rem;
   }
   
   .navbar-links2 {
@@ -396,34 +460,34 @@
 
   .heading-primary-quienes-somos{
 position: relative;
-top: -170px;
+top: 8rem;
   }
 
   .heading-secondary-quienes-somos{
     position: relative;
-    top: -230px;
+    top: 6rem;
   }
 
   .vision{
     position: relative;
-    top: -170px;
+    top: 8rem;
   }
 
   .image-container2 {
     position: relative;
-    left: 14%;
-    transform: translateY(-140%);
+    left: 30%;
+    transform: translateY(-120%);
   }
   .linkedin {
     position: relative; /* Esto asegura que no se vea afectado por el 'fixed' del h2 */
-    left: 33%;
-    top: 270px; /* AMOE STE COMANDO */
+    left: 32%;
+    top: 28rem; /* AMOE STE COMANDO */
     max-width: 40%;
   }
   .boton-inicio3 {
     position: relative;
-    top: -480px;
-    left: 170px;
+    top: 10rem;
+    left: 13.5rem;
     width: 70px; /* Ajusta según lo necesites */
     height: 70px; /* Ajusta según lo necesites */
   }
@@ -431,39 +495,31 @@ top: -170px;
   .contacto{
     position: relative;
     color: white;
-    top: -480px;
-    left: 160px;
+    top: 10rem;
+    left: 12.7rem;
   }
   .footerQuienes{
     bottom: -60rem;
   }
 }
 
-
-@media (max-width: 440px){
-  .image-container2 {
-    position: relative;
-    left: 10%;
-    transform: translateY(-140%);
-  }
-  .linkedin {
-    position: relative; /* Esto asegura que no se vea afectado por el 'fixed' del h2 */
-    left: 22%;
-    top: 270px; /* AMOE STE COMANDO */
-    max-width: 60%;
-  }
-  .boton-inicio3 {
-    position: relative;
-    top: -480px;
-    left: 150px;
-    width: 70px; /* Ajusta según lo necesites */
-    height: 70px; /* Ajusta según lo necesites */
+@media (max-width: 430px) {
+  .footerQuienes{
+    bottom: -80rem;
   }
   
   .contacto{
     position: relative;
     color: white;
-    top: -480px;
-    left: 140px;
+    top: 10rem;
+    left: 11.7rem;
+  }
+
+  .boton-inicio3 {
+    position: relative;
+    top: 10rem;
+    left: 12.5rem;
+    width: 70px; /* Ajusta según lo necesites */
+    height: 70px; /* Ajusta según lo necesites */
   }
 }

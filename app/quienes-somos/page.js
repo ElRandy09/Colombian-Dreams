@@ -8,10 +8,11 @@ import { useState } from 'react';
 export default function About() {
     return (
         <>
+   
+            <div className="hero-container4">
             <div className="logo">
                 <Link href="/">Colombian Dreams</Link>
             </div>
-            <div className="hero-container4">
                 <div className="container4">
                     <Navbar /> 
                     <div className="text-main">

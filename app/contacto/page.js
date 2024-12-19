@@ -130,6 +130,12 @@ export default function About() {
                 </button>
                     </div>
                 </div>
+                <footer className="footerContacto">
+        <p>&copy; 2024 Colombian Dreams. Todos los derechos reservados.</p>
+        <p>
+          Contáctanos: <a href="mailto:info@colombiandreams.co">info@colombiandreams.co</a>
+        </p>
+      </footer>
             </div>
         </>
     );

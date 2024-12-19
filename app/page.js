@@ -20,9 +20,9 @@ export default function Home() {
 
   return (
     <div>
-      <div className="logo">
-        <Link href="/">Colombian Dreams</Link>
-      </div>
+       <div className="logo">
+                <Link href="/">Colombian Dreams</Link>
+            </div>
 
       <div className="hero-container">
         <div className="container">
@@ -51,7 +51,7 @@ export default function Home() {
           </div>
         </div>
 
-        
+
         <footer className="footer">
         <p>&copy; 2024 Colombian Dreams. Todos los derechos reservados.</p>
         <p>
