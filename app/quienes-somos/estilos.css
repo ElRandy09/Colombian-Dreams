@@ -8,14 +8,17 @@
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  overflow: hidden; /* Bloquea el scroll solo en esta página */
 }
 
-
+.container4 {
+  width: 100%;
+  max-width: 1300px; /* Limitar el tamaño máximo */
+  height: 100vh;
+}
   .image-container2 {
     position: relative;
     left: 75%;  /* Esto coloca la imagen en la parte derecha */
-    transform: translateY(-160%);
+    transform: translateY(-100%);
   
   }
 
@@ -155,7 +158,7 @@
 
 .boton-inicio3 {
   position: relative;
-  top: -830px;
+  top: -550px;
   left: -200px;
   width: 100px; /* Ajusta según lo necesites */
   height: 200px; /* Ajusta según lo necesites */
@@ -165,9 +168,29 @@
 .contacto{
   position: relative;
   color: white;
-  top: -870px;
+  top: -600px;
   left: -195px;
 }
+
+.footerQuienes {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+  position: relative;
+  bottom: 0rem;
+  width: 100%;
+}
+
+.footerQuienes a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.footerQuienes a:hover {
+  text-decoration: underline;
+}
+
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -181,44 +204,22 @@
 
 
 
-
-@media (max-width: 1600px) {
-  .hero-container4 {
-    height: auto; /* Permite que el contenedor se ajuste al contenido */
-    overflow: auto; /* Habilita el scroll en pantallas pequeñas */
-    
-  }
-
-  .heading-secondary-quienes-somos {
-    margin: 0 auto; /* Centra el texto horizontalmente */
-    padding: 1rem; /* Espacio interno para mejor legibilidad */
-    font-size: 1.2rem;
-    position: relative;
-    top: 110px;
-    right: 15%;
-    max-width: 70%; /* Limita el ancho del texto */
-    animation: fadeIn 1s forwards;
-    text-align: justify;
-  }
-}
-
-
 @media (max-width: 1600px) {
 .image-container2 {
   position: relative;
   left: 75%;
-  transform: translateY(-160%);
+  transform: translateY(-100%);
 }
 .linkedin {
   position: relative; /* Esto asegura que no se vea afectado por el 'fixed' del h2 */
   left: 72.2%;
-  top: 110px; /* AMOE STE COMANDO */
+  top: 80px; /* AMOE STE COMANDO */
   max-width: 30%;
 }
 .boton-inicio3 {
   position: relative;
   top: -830px;
-  left: -110px;
+  left: -90px;
   width: 90px; /* Ajusta según lo necesites */
   height: 90px; /* Ajusta según lo necesites */
 }
@@ -227,10 +228,13 @@
   position: relative;
   color: white;
   top: -820px;
-  left: -110px;
+  left: -90px;
+}
+.footerQuienes{
+  bottom: -10rem;
+}
 }
 
-}
 @media (max-width: 1499px) {
   .image-container2 {
     position: relative;

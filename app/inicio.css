@@ -5,6 +5,8 @@
   background-color: #cdad7d;
   color: rgb(255, 255, 255);
   padding: 0.75rem 1.5rem;
+  position: relative;
+  top: 13.5rem;
   transition: background-color 0.3s;
   animation: fadeIn 1s forwards;
 }
@@ -23,7 +25,7 @@
   align-items: center;
   padding: 1.25rem;
   position: relative;
-  top: -28vh; /* Ajustar posición de forma dinámica */
+  top: -5vh; /* Ajustar posición de forma dinámica */
   width: 100%;
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.2);
@@ -63,6 +65,8 @@
   font-weight: bold;
   opacity: 0;
   animation: fadeIn 0.5s forwards;
+  position: relative;
+  top: 13.5rem;
 }
 
 .heading-secondary-inicio {
@@ -74,6 +78,8 @@
   color: white;
   opacity: 0;
   animation: fadeIn 1s forwards;
+  position: relative;
+  top: 13.5rem;
 }
 
 .logo {
@@ -86,6 +92,26 @@
   z-index: 20;
 }
 
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+  position: relative;
+  bottom: -10.5rem;
+  width: 100%;
+}
+
+.footer a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
 @media (max-width: 819px) {
   .navbar {
     top: -20vh; /* Ajustar top con unidades relativas */
@@ -94,7 +120,7 @@
 
 @media (max-width: 480px) {
   .navbar {
-    top: -20vh; /* Ajuste con vh */
+    top: -25vh; /* Ajuste con vh */
   }
   .heading-primary-inicio {
     top: -10vh; /* Ajuste proporcional con vh */
