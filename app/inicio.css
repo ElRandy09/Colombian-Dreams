@@ -201,3 +201,12 @@
   }
 
 }
+
+@media (max-width: 495px) {
+  .loguis{
+    top: 0.5rem !important;
+  }
+  .navbar{
+    top: 1rem !important;
+  }
+}
