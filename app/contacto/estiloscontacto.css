@@ -1,13 +1,11 @@
-/* Root font size */
 html {
-  font-size: 100%; /* Esto asegura que los valores en rem sean proporcionales */
+  font-size: 100%; 
 }
 
 body {
-  font-family: 'Arial', sans-serif; /* Asegúrate de que la fuente se ajuste bien */
+  font-family: 'Arial', sans-serif;
 }
 
-/* Estilo del contenedor principal */
 .hero-container {
   min-height: 100vh;
   display: flex;
@@ -22,8 +20,8 @@ body {
 
 .contactanos {
   position: relative;
-  top: 10vh; /* Usa vh para adaptarse al viewport */
-  font-size: 2rem; /* Usa rem en lugar de px */
+  top: 0rem; 
+  font-size: 2rem;
   font-weight: bold;
   opacity: 0;
   animation: fadeIn 1.5s forwards;
@@ -32,14 +30,14 @@ body {
 
 .agendar {
   position: relative;
-  top: 11vh; /* Usa vh en lugar de px */
+  top: 0rem; 
   color: white;
   animation: fadeIn 1.5s forwards;
 }
 
 .datos {
   position: relative;
-  top: 10vh; /* Usa vh en lugar de px */
+  top: 0rem; 
   font-size: 1.25rem;
   line-height: 1.5;
   text-align: center;
@@ -50,18 +48,9 @@ body {
   animation: fadeIn 1s forwards;
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #cdad7d;
-  position: absolute;
-  top: 3vh; /* Usa vh en lugar de px */
-  left: 2rem; /* Usa rem en lugar de px */
-  z-index: 20;
-}
 
 .profile-image {
-  width: 20rem; /* Usa rem en lugar de px */
+  width: 20rem; 
   height: auto;
   opacity: 0;
   animation: fadeIn 1s forwards;
@@ -73,8 +62,9 @@ body {
   align-items: center;
   padding: 1.25rem;
   position: relative;
-  top: 10vh;
-  width: 100%;
+  top: -1.7rem;
+  width: 68.8%;
+  margin: 0 auto; 
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -108,7 +98,7 @@ body {
 
 .formulario-contacto {
   position: relative;
-  top: 10vh;
+  top: 0rem;
   margin-left: auto;
   margin-right: auto;
   background: #ffffff;
@@ -116,7 +106,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 30rem; /* Usa rem en lugar de px */
+  max-width: 30rem; 
   animation: fadeIn 0.5s forwards;
 }
 
@@ -205,6 +195,8 @@ body {
   padding: 1rem 2rem;
   transition: background-color 0.3s;
   animation: fadeIn 1s forwards;
+  position: relative;
+  top: -7rem;
 }
 
 .boton-inicio2:hover {
@@ -222,7 +214,7 @@ body {
   text-align: center;
   padding: 1.5rem 0;
   position: relative;
-  bottom: -2rem;
+  bottom: -5rem;
   width: 100%;
 }
 
@@ -233,6 +225,31 @@ body {
 
 .footerContacto a:hover {
   text-decoration: underline;
+}
+
+.logo5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #cdad7d;
+  position: relative;
+  top: 3.5rem;
+  left: 1.4rem;
+  z-index: 20;
+  max-width: 180px;
+}
+
+/* Ajustar el enlace que contiene el logo */
+.logo5 a {
+  display: inline-block; /* Asegura que solo el logo sea clickeable */
+  padding: 0; /* Eliminar cualquier padding alrededor del enlace */
+  margin: 0; /* Eliminar cualquier margen alrededor del enlace */
+}
+
+/* Ajustar la imagen del logo */
+.logo5 img {
+  max-width: 180px;
+  height: auto;
+  display: block; /* Elimina cualquier espacio debajo de la imagen */
 }
 @keyframes fadeIn {
   0% {
@@ -245,12 +262,91 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1600px) {
+.navbar4{
+  margin: 0 auto; 
+  width: 67%;
+  top: -4rem;
+}
+.logo5{
+  top: 2.9rem;
+}
+.contactanos{
+top: -2rem;
+}
+.datos{
+  top: -2rem;
+}
+
+.formulario-contacto{
+  top: -2rem;
+}
+
+.agendar{
+  top: -2rem;
+}
+
+.boton-inicio2{
+  top: -8rem;
+}
+.footerContacto{
+  bottom: -20rem;
+}
+}
+  @media (max-width: 1200px) {
+.navbar4{
+  margin: 0 auto; 
+  width: 60%;
+}
+.logo5{
+  top: 3.4rem;
+  left: 2.6rem;
+}
+  }
+  @media (max-width: 1000px) {
+    .navbar4{
+      margin: 0 auto; 
+      width: 61%;
+    }
+    .logo5{
+      left: 0rem;
+    }
+  }
+   @media (max-width: 800px) {
+.navbar4{
+top: 0rem;
+}
+.logo5{
+margin: 0 auto;
+left: 0rem;
+top: 0.3rem;
+}
+.contactanos{
+  top: 1rem;
+  }
+  .datos{
+    top: 1.5rem;
+  }
+  
+  .formulario-contacto{
+    top: -2rem;
+  }
+  
+  .agendar{
+    top: -2rem;
+  }
+  
+  .boton-inicio2{
+    top: -8rem;
+  }
+   }
+
+@media (max-width: 495px) {
   .navbar4 {
     flex-direction: column;
     padding: 1rem;
     width: 100%;
-    top: -20vh;
+    top: -0rem;
   }
   
   .navbar-links4 {
@@ -261,26 +357,29 @@ body {
 
   .contactanos {
     position: relative;
-    top: -20vh;
+    top: 2rem;
   }
 
   .datos {
     position: relative;
-    top: -20vh;
+    top: 2rem;
   }
 
   .formulario-contacto {
     position: relative;
-    top: -25vh;
+    top: -0rem;
   }
 
   .agendar {
     position: relative;
-    top: -25vh;
+    top: 1rem;
   }
 
   .boton-inicio2 {
     position: relative;
-    top: -35vh;
+    top: -6rem;
+  }
+  .footerContacto{
+    bottom: -30rem;
   }
 }

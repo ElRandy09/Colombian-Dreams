@@ -1,4 +1,3 @@
-/* Estilo del botón */
 .hero-container5 {
   height: 100vh; /* Asegura que ocupa exactamente la altura de la pantalla */
   display: flex;
@@ -13,22 +12,46 @@
     width: 100%;
     max-width: 1500px; /* Limitar el tamaño máximo */
     margin: 0 auto; /* Centrar el contenedor */
-    padding: 0 20px; /* Opcional, para agregar margen interno */
-    
+    padding: 0 20px; /*agregar margen interno */
+    max-height: 100vh;
   }
 
   .colombianlogo {
     position: relative;
-    left: 60rem;  /* Esto coloca la imagen en la parte derecha */
+    left: 60rem; 
     top: -30rem;
   
   }
 
+  .logo4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #cdad7d;
+    position: relative;
+    top: 3.5rem;
+    left: 1.4rem;
+    z-index: 20;
+    max-width: 180px;
+  }
+  
+  /* Ajustar el enlace que contiene el logo */
+  .logo4 a {
+    display: inline-block; /* Asegura que solo el logo sea clickeable */
+    padding: 0; /* Eliminar cualquier padding alrededor del enlace */
+    margin: 0; /* Eliminar cualquier margen alrededor del enlace */
+  }
+  
+  /* Ajustar la imagen del logo */
+  .logo4 img {
+    max-width: 180px;
+    height: auto;
+    display: block; /* Elimina cualquier espacio debajo de la imagen */
+  }
 
   .heading-primary-quienes-somos5 {
     position: relative;
-    top: 160px;
-    font-size: 2.5rem; /* Ajusta el tamaño para pantallas más pequeñas */
+    top: -2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     opacity: 0;
     animation: fadeIn 0.5s forwards;
@@ -36,22 +59,22 @@
 }
   
 .heading-secondary-quienes-somos5 {
-  margin: 0 auto; /* Centra el texto horizontalmente */
-  padding: 1rem; /* Espacio interno para mejor legibilidad */
+  margin: 0 auto; 
+  padding: 1rem; 
   font-size: 1.2rem;
   line-height: 1.5;
   text-align: center;
   color: rgba(255, 255, 255);
   position: relative;
-  top: 110px;
+  top: -7rem;
   right: 0%;
   max-width: 70%; /* Limita el ancho del texto */
   animation: fadeIn 1s forwards;
 }
 .heading-primary-quienes-somos6 {
   position: relative;
-  top: 120px;
-  font-size: 2.5rem; /* Ajusta el tamaño para pantallas más pequeñas */
+  top: -7rem;
+  font-size: 2.5rem;
   font-weight: bold;
   opacity: 0;
   animation: fadeIn 0.5s forwards;
@@ -59,23 +82,23 @@
 }
 
 .heading-secondary-quienes-somos6 {
-  margin: 0 auto; /* Centra el texto horizontalmente */
-  padding: 1rem; /* Espacio interno para mejor legibilidad */
+  margin: 0 auto;
+  padding: 1rem; 
   font-size: 1.2rem;
   line-height: 1.5;
   text-align: center;
   color: rgba(255, 255, 255);
   position: relative;
-  top: 110px;
+  top: -7rem;
   right: 0%;
-  max-width: 70%; /* Limita el ancho del texto */
+  max-width: 70%; 
   animation: fadeIn 1s forwards;
 }
 
 .heading-primary-quienes-somos7 {
   position: relative;
-  top: 110px;
-  font-size: 2.5rem; /* Ajusta el tamaño para pantallas más pequeñas */
+  top: -7rem;
+  font-size: 2.5rem; 
   font-weight: bold;
   opacity: 0;
   animation: fadeIn 0.5s forwards;
@@ -84,16 +107,16 @@
 
 
 .heading-secondary-quienes-somos7 {
-  margin: 0 auto; /* Centra el texto horizontalmente */
-  padding: 1rem; /* Espacio interno para mejor legibilidad */
+  margin: 0 auto; 
+  padding: 1rem; 
   font-size: 1.2rem;
   line-height: 1.5;
   text-align: center;
   color: rgba(255, 255, 255);
   position: relative;
-  top: 110px;
+  top: -7rem;
   right: 0%;
-  max-width: 70%; /* Limita el ancho del texto */
+  max-width: 70%; 
   animation: fadeIn 1s forwards;
 }
 
@@ -106,7 +129,7 @@
   
   .vision5 {
     position: relative;
-    top: 166px;
+    top: -2rem;
     font-size: 1.25rem;
     line-height: 1.5;
     text-align: center;
@@ -117,26 +140,12 @@
     animation: fadeIn 1s forwards;
   }
   
-
-
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #cdad7d;
-    top: 30px; /* Ajusta la distancia desde el borde superior */
-    left: 40px; /* Ajusta la distancia desde el borde izquierdo */
-    z-index: 20; /* Asegúrate de que el logo esté encima de otros elementos */
-  }
-  
-
-  
   .profile-image {
-    width: 300px; /* Ajusta el tamaño de la imagen */
+    width: 300px; /* Ajustar el tamaño de la imagen */
     height: auto;
     opacity: 0;
     animation: fadeIn 1s forwards;
   }
-  
   
 .navbar5 {
   display: flex;
@@ -144,13 +153,12 @@
   align-items: center;
   padding: 1.25rem;
   position: relative;
-  top: 136px; /* Mueve el navbar hacia arriba */
-  width: 100%;
+  top: -4.3rem; 
+  margin: 0 auto;  /* Esto centra el navbar */
+  width: 69%;
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.2);
 }
-
-
 
 .navbar-logo5 {
   align-self: flex-start;
@@ -214,56 +222,78 @@
 .hero-container5{
   overflow: auto;
 }
+
+
   }
   
-  @media (max-width: 1400px) { /* Para tablets y pantallas medianas */
-    .dropbtn, .dropbtn2 {
-        width: 90%; /* Ocupan casi todo el ancho */
-        font-size: 14px; /* Ajusta el tamaño del texto */
-        left: auto;
-        right: auto; /* Centra el botón horizontalmente */
-        top: 100px; /* Ajusta la posición vertical */
-        width: 200px;
-        height: 50px;
-    }
-.hero-container5{
-  overflow: auto;
-}
-    .dropdown-content, .dropdown-content2 {
-        width: 90%; /* Ajusta el ancho del contenido desplegable */
-        left: 0%; /* Centra dentro del contenedor */
-        right: auto;
-        top: 140px; /* Ajusta la posición vertical para que esté debajo del botón */
-        margin-top: 10px; /* Añade espacio entre el botón y el contenido */
-        width: 200px;
-        height: 200px;
-    }
 
-    .dropdown {
-        left: auto; /* Resetea las posiciones absolutas */
-        top: 10px;
+  @media (max-width: 1499px) {
+    .logo4{
+      left: 2.2rem;
     }
+  }
+  @media (max-width: 1200px) {
+    .navbar5{
+      width: 62%;  /*tamaño del navbar */
+      margin: 0 auto;  /*centra el navbar */
+    }
+    .logo4{
+      left: 1.3rem;
+    }
+  }
 
-    .dropdown2 {
-        left: auto; /* Resetea las posiciones absolutas */
-        top: 10px;
+  @media (max-width: 1000px) {
+    .navbar5{
+      width: 63%;  /*tamaño del navbar */
+      margin: 0 auto;  /*centra el navbar */
     }
-    .colombianlogo {
-      position: relative;
-      left: 107vh;
-      top: -50vh;
+    .logo4{
+      left: -1.4rem;
+    }
     
+  }
+
+  @media (max-width: 800px) {
+    .footerHistoria{
+      bottom: -15rem;
     }
-
-}
-
-@media (max-width: 480px) { /* Para dispositivos móviles */
+    .navbar5{
+      top: 0rem;
+    }
+    .logo4{
+      margin: 0 auto; 
+      left: 0rem;
+      top: 0.2rem;
+    }
+    .heading-primary-quienes-somos5{
+top: 0rem;
+    }
+    .heading-secondary-quienes-somos5{
+      top: -5rem;
+    }
+    .heading-primary-quienes-somos6{
+      top: -5rem;
+    }
+    .heading-secondary-quienes-somos6{
+      top: -5rem;
+    }
+    .heading-primary-quienes-somos7{
+      top: -5rem;
+    }
+    .heading-secondary-quienes-somos7{
+      top: -5rem;
+    }
+    .vision5{
+      top: 0rem;
+    }
+  }
+@media (max-width: 495px) { /* Para dispositivos móviles */
  
     .navbar5 {
       flex-direction: column;
       padding: 0.75rem;
       width: 100%;
-      top: 10vh;
+      top: 1.5rem;
     }
     
     .navbar-links5 {
@@ -271,25 +301,34 @@
       gap: 2rem;
       text-align: center;
     }
-  
     .heading-primary-quienes-somos5{
-  position: relative;
-  top: 10vh;
-    }
-  
-    .heading-secondary-quienes-somos5{
-      position: relative;
-      top: 2vh;
-      left: 10px;
-      text-align: center;
-      max-width: 100%;
-    }
-  
-    .vision5{
-      position: relative;
-      top: 10vh;
-    }
+      top: 1.5rem;
+          }
+          .heading-secondary-quienes-somos5{
+            top: -3.5rem;
+          }
+          .heading-primary-quienes-somos6{
+            top: -3.5rem;
+          }
+          .heading-secondary-quienes-somos6{
+            top: -3.5rem;
+          }
+          .heading-primary-quienes-somos7{
+            top: -3.5rem;
+          }
+          .heading-secondary-quienes-somos7{
+            top: -3.5rem;
+          }
+          .vision5{
+            top: 1.5rem;
+          }
     .footerHistoria{
-      bottom: 2rem;
+      bottom: -50rem;
     }
+}
+
+@media (max-width: 420px) {
+  .footerHistoria{
+    bottom: -80rem;
+  }
 }

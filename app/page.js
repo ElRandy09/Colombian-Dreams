@@ -6,6 +6,7 @@ import './inicio.css';
 import { useEffect, useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import PageTransition from '../components/PageTransition';
+import Head from 'next/head';  // Asegúrate de importar el componente Head
 
 export default function Home() {
   const [isMounted, setIsMounted] = useState(false);
@@ -20,12 +21,26 @@ export default function Home() {
 
   return (
     <div>
-       <div className="logo">
-                <Link href="/">Colombian Dreams</Link>
-            </div>
+      <Head>
+        <title>Colombian Dreams</title>
+        <meta name="description" content="Transforma tus ideas en realidades con un enfoque en la gestión estratégica y humana de proyectos." />
+        <meta name="keywords" content="gestión de proyectos, éxito, transformación, colombian dreams, asesoría" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Colombian Dreams" />
+        <meta property="og:description" content="Transforma tus ideas en realidades con un enfoque en la gestión estratégica y humana de proyectos." />
+        <meta property="og:image" content="/logoo.png" />
+        <meta property="og:url" content="https://www.colombiandreams.co" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
       <div className="hero-container">
         <div className="container">
+          <div className="loguis">
+            <Link href="/">
+              <img src="/logoo.png" alt="Colombian Dreams Logo" />
+            </Link>
+          </div>
+
           <Navbar />
           <div className="text-main">
             <h1 className="heading-primary-inicio">
@@ -51,15 +66,13 @@ export default function Home() {
           </div>
         </div>
 
-
         <footer className="footer">
-        <p>&copy; 2024 Colombian Dreams. Todos los derechos reservados.</p>
-        <p>
-          Contáctanos: <a href="mailto:info@colombiandreams.co">info@colombiandreams.co</a>
-        </p>
-      </footer>
+          <p>&copy; 2024 Colombian Dreams. Todos los derechos reservados.</p>
+          <p>
+            Contáctanos: <a href="mailto:info@colombiandreams.co">info@colombiandreams.co</a>
+          </p>
+        </footer>
       </div>
-
     </div>
   );
 }

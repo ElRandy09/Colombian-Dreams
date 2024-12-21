@@ -42,7 +42,7 @@ export default function About() {
 
         try {
             // Enviar los datos al servidor utilizando fetch
-            const response = await fetch('/api/sendEmail', { // Aquí cambiamos a la ruta de Next.js
+            const response = await fetch('/api/sendEmail', { // Ruta de la API
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -66,11 +66,14 @@ export default function About() {
 
     return (
         <>
-            <div className="logo">
-                <Link href="/">Colombian Dreams</Link>
-            </div>
+
             <div className="hero-container">
                 <div className="container">
+                <div className="logo5">
+  <Link href="/">
+    <img src="/logoo.png" alt="Colombian Dreams Logo" />
+  </Link>
+</div>
                     <Navbar />
                     <div className="text-main">
                         <h1 className="contactanos">Contáctanos</h1>
@@ -93,7 +96,7 @@ export default function About() {
                                 <PhoneInput
                                     international
                                     defaultCountry="CO"
-                                    value={phone} // Vinculamos el valor del estado al componente
+                                    value={phone} // Vincular el valor del estado al componente
                                     onChange={handlePhoneChange} // Manejador para actualizar el estado
                                     name="phone"
                                     id="phone"

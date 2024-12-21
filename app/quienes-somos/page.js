@@ -8,14 +8,19 @@ import { useState } from 'react';
 export default function About() {
     return (
         <>
-   
-            <div className="hero-container4">
-            <div className="logo">
-                <Link href="/">Colombian Dreams</Link>
-            </div>
-                <div className="container4">
-                    <Navbar /> 
+
+
+     <div className="hero-container4">
+
+                <div className="container4">                  
+                <div className="logo3">
+  <Link href="/">
+    <img src="/logoo.png" alt="Colombian Dreams Logo" />
+  </Link>
+</div>
+<Navbar />        
                     <div className="text-main">
+                 
                         <h1 className="heading-primary-quienes-somos">Nuestro equipo</h1>
                         <h3 className='vision'>Somos tu impulso para hacer realidad tus ideas y proyectos.</h3>
                       
@@ -27,7 +32,7 @@ export default function About() {
                                     Su experiencia abarca áreas clave como sostenibilidad, planeación estratégica, comercial, gestión de riesgos, operaciones, capacitación y mejora de procesos.
                                     Pero su verdadero diferencial no solo radica en su experiencia técnica, sino en su habilidad para conectar contigo de manera auténtica y cercana. Entendemos que detrás de cada proyecto hay personas con historias, aspiraciones y retos únicos. Por eso, nuestro enfoque va más allá de los números y las estrategias: se trata de acompañarte, de escucharte y de trabajar contigo como un verdadero equipo.
                                 </p>
-
+                               
                                 <p className="heading-secondary-quienes-somos">
                                     En este camino, no estarás solo. Con un seguimiento personalizado y una guía constante, cada paso que demos juntos estará alineado con tus metas, transformándolas en logros significativos y duraderos.
                                     Porque en la gestión de proyectos no solo importa el destino; importa cómo llegamos allí y quién está a tu lado en el proceso.

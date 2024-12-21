@@ -3,8 +3,10 @@
   background-color: #f0f4ff00;
   padding: 2.2rem;
   animation: fadeIn 1s forwards;
-  width: 100%; /* O usa px, vw, o un valor mayor */
-  margin: 0 auto; /* Centra el contenedor */
+  width: 100%; 
+  margin: 0 auto;
+  position: relative;
+  top: -6rem !important;
 }
 .title {
   font-size: 2rem;
@@ -95,4 +97,10 @@ ul li {
 }
 .hero-container3 {
     margin-top: 65px; 
+}
+
+@media (max-width: 495px) {
+  .pricing-container{
+    top: 0rem !important;
+  }
 }

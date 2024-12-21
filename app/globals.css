@@ -15,7 +15,7 @@
   }
 }
 html {
-  scroll-behavior: smooth; /* Esto activa el desplazamiento suave */
+  scroll-behavior: smooth; /*desplazamiento suave */
 }
 
 body {
@@ -26,11 +26,11 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
   min-height: 100vh;
-  overflow-y: auto; /* Permite desplazamiento vertical si es necesario */
+  overflow-y: auto;
 }
 
 .hero-container {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -38,15 +38,8 @@ body {
   background-image: url('/bg.png');
   background-size: cover;
   background-position: center;
-  background-attachment: scroll;
   width: 100%;
-}
-.container {
-  width: 100%;
-  
-  max-width: 1300px; /* Limitar el tamaño máximo */
-  margin: 0 auto; /* Centrar el contenedor */
-  padding: 0 20px; /* Opcional, para agregar margen interno */
+  overflow-x: hidden;
 }
 
 .text-main {
@@ -71,7 +64,7 @@ body {
     transform: translateY(0);
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 490px) {
   .navbar {
     flex-direction: column;
     padding: 0.75rem;
@@ -85,10 +78,3 @@ body {
   }
 }
 
-
-@media (max-width: 480px) {
-  .container {
-    transform: translateY(0); /* Elimina el desplazamiento hacia arriba en pantallas pequeñas */
-    margin-top: 300px; /* Ajusta el margen superior para dispositivos móviles */
-  }
-}

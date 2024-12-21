@@ -1,14 +1,14 @@
-/* Estilo del botón */
 .container2 {
   width: 100%;
-  max-width: 1500px; /* Limitar el tamaño máximo */
-  margin: 0 auto; /* Centrar el contenedor */
-  padding: 0 20px; /* Opcional, para agregar margen interno */
+  max-width: 1500px; 
+  margin: 0 auto; 
+  padding: 0 20px;
+  max-height: 100vh;
 }
 .hero-container {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se ajusten mejor */
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-image: url('/bg.png');
@@ -19,8 +19,8 @@
 
   .heading-primary-quienes-somos3 {
     position: relative;
-    top: 160px;
-    font-size: 2.5rem; /* Ajusta el tamaño para pantallas más pequeñas */
+    top: 2rem;
+    font-size: 2.5rem; 
     font-weight: bold;
     opacity: 0;
     animation: fadeIn 0.5s forwards;
@@ -28,8 +28,8 @@
 }
   
 .heading-secondary-quienes-somos3 {
-  margin: 0 auto; /* Centra el texto horizontalmente */
-  padding: 1rem; /* Espacio interno para mejor legibilidad */
+  margin: 0 auto; 
+  padding: 1rem; 
   font-size: 1.2rem;
   line-height: 1.5;
   text-align: justify;
@@ -37,38 +37,30 @@
   position: relative;
   top: 110px;
   right: 10%;
-  max-width: 70%; /* Limita el ancho del texto */
+  max-width: 70%; 
   animation: fadeIn 1s forwards;
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #cdad7d;
-  position: absolute;
-  top: 30px; /* Ajusta la distancia desde el borde superior */
-  left: 40px; /* Ajusta la distancia desde el borde izquierdo */
-  z-index: 20; /* Asegúrate de que el logo esté encima de otros elementos */
-}
+
   
   .about-text-wrapper {
-    margin-bottom: 20rem; /* Esto mueve solo el contenedor */
+    margin-bottom: 20rem; 
   }
 
 
   .hipervinculo{
-    color: #6ec2f0; /* Cambia el valor por el color que desees */
-    text-decoration: none; /* Si no deseas subrayado */
+    color: #6ec2f0; 
+    text-decoration: none; 
   }
   
   .hipervinculo:hover {
-    color: #ff5733; /* Cambia el color cuando el usuario pase el ratón sobre el enlace */
+    color: #ff5733; 
   }
   
   
   .vision3 {
     position: relative;
-    top: 166px;
+    top: 2rem;
     font-size: 1.25rem;
     line-height: 1.5;
     text-align: center;
@@ -91,7 +83,7 @@ h3{
   
 
   .profile-image {
-    width: 300px; /* Ajusta el tamaño de la imagen */
+    width: 300px; 
     height: auto;
     opacity: 0;
     animation: fadeIn 1s forwards;
@@ -104,13 +96,28 @@ h3{
   align-items: center;
   padding: 1.25rem;
   position: relative;
-  top: 12.3vh; /* Mueve el navbar hacia arriba */
-  width: 100%;
+  top: -1.3rem; 
+  margin: 0 auto;  /* Esto centra el navbar */
+  width: 85%;
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.logo2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #cdad7d;
+  position: relative;
+  top: 6rem; 
+  left: -11rem; 
+  z-index: 20; 
+  max-width: 180px;
+}
 
+.logo2 img {
+  max-width: 180px;
+  height: auto; 
+}
 
 .navbar-logo3 {
   align-self: flex-start;
@@ -125,7 +132,7 @@ h3{
   display: flex;
   flex-grow: 1;
   justify-content: center;
-  gap: 2rem; /* Espacio entre los enlaces */
+  gap: 2rem; 
   align-items: center;
 }
 
@@ -147,7 +154,7 @@ h3{
   text-align: center;
   padding: 1.5rem 0;
   position: relative;
-  bottom: -5.5rem;
+  bottom: -22rem;
   width: 100%;
 }
 
@@ -172,14 +179,81 @@ h3{
     }
   }
   
-
+  @media(max-width: 1600px){
+    .navbar3{
+      margin: 0 auto;  /* Esto centra el navbar */
+      width: 69%;
+      top: -3.7rem;
+    }
+    .logo2{
+      top: 3.5rem;
+      left: 1.4rem;
+    }
+    }
   
-@media (max-width: 480px) {
+
+    @media (max-width: 1499px) {
+      .logo2{
+        top: 3.3rem;
+        left: 2.5rem;
+      }
+    }
+
+    @media (max-width: 1454px) {
+.footerServicios{
+bottom: -50rem;
+}
+    }
+      @media (max-width: 1200px) {
+        .navbar3{
+          margin: 0 auto;  /* Esto centra el navbar */
+          width: 62%;
+        }
+        .logo2{
+          left: 1.3rem;
+        }
+      }
+      @media (max-width: 1000px) {
+        .logo2{
+          left: -1rem;
+        }
+        .navbar3{
+          width: 63%;
+        }
+      }
+      @media (max-width: 1454px) {
+        .footerServicios{
+        bottom: -50rem;
+        }
+            }
+
+            @media (max-width: 927px) {
+              .footerServicios{
+              bottom: -55rem;
+              }
+                  }
+       @media (max-width: 800px) {
+        .navbar3{
+          top: 0.6rem;
+        }
+        .logo2{
+          top: 0.5rem;
+          margin: 0 auto !important;
+          left: 0rem;
+        }
+       }
+       @media (max-width: 778px) {
+        .footerServicios{
+        bottom: -120rem;
+        }
+            }
+    
+@media (max-width: 495px) {
   .navbar3 {
     flex-direction: column;
     padding: 0.75rem;
     width: 100%;
-    top: 85px;
+    top: 1rem;
   }
   
   .navbar-links3 {
@@ -190,16 +264,23 @@ h3{
 
   .heading-primary-quienes-somos3{
     position: relative;
-    top: 100px;
+    top: 2rem;
   }
 
   .vision3{
     position: relative;
-    top: 100px;
+    top: 2rem;
   }
 
   .hero-container3{
     position: relative;
-    top: -45px;
+    top: -7rem;
   }
+  .logo2{
+    margin: 0 auto !important;
+    left: 0rem;
+  }
+  .footerServicios{
+    bottom: -130rem;
+    }
 }

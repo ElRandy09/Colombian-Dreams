@@ -7,11 +7,16 @@ import Navbar from './navbar';
 export default function About() {
     return (
     <>
-    <div className="logo">
-            <Link href="/">Colombian Dreams</Link>
-        </div>
+
+
+
         <div className="hero-container5">
                 <div className="container3">
+                <div className="logo4">
+  <Link href="/">
+    <img src="/logoo.png" alt="Colombian Dreams Logo" />
+  </Link>
+</div>
                     <Navbar />
                     <div className="text-main">
                         <h1 className="heading-primary-quienes-somos5">¿Quiénes somos?</h1>
@@ -41,7 +46,9 @@ export default function About() {
                         Contáctanos: <a href="mailto:info@colombiandreams.co">info@colombiandreams.co</a>
                     </p>
                 </footer>
-            </div></>
+            </div>
+           
+            </>
             
        
     );
