@@ -604,3 +604,32 @@ top: 2rem;
   left: 38%;
 }
 }
+
+@media (max-width: 300px) {
+  .footerQuienes{
+    bottom: -150rem;
+  }
+  .image-container2{
+   left: 17%; 
+  }
+  .linkedin{
+    top: 30rem;
+  }
+  
+  .boton-inicio3{
+    top: 20rem;
+    left: 40%;
+  }
+  .contacto{
+    top: 21rem;
+    left: 38%;
+  }
+  }
+
+  @media (max-width: 269px) {
+.footerQuienes{
+  top: 200rem;
+}
+  }
+
+

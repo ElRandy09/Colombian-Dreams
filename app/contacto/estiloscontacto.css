@@ -383,3 +383,19 @@ top: 0.3rem;
     bottom: -30rem;
   }
 }
+
+@media (max-width: 400px) {
+  .footerContacto{
+    top: 40rem;
+  }
+}
+@media (max-width: 300px) {
+  .footerContacto{
+    top: 50rem;
+  }
+}
+@media (max-width: 269px) {
+  .footerContacto{
+    top: 70rem;
+  }
+}
