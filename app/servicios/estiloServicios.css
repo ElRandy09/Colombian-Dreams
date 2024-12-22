@@ -284,3 +284,18 @@ bottom: -50rem;
     bottom: -130rem;
     }
 }
+
+@media (max-width: 450px) {
+  .footerServicios{
+    top: 150rem;
+  }
+  }
+
+  
+@media (max-width: 400px) {
+  .footerServicios{
+    top: 200rem;
+  }
+  }
+
+  

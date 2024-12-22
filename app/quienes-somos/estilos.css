@@ -560,6 +560,7 @@ top: 2rem;
   .footerQuienes{
     bottom: -80rem;
   }
+  
 
 }
 
@@ -585,7 +586,21 @@ top: 2rem;
 }
 @media (max-width: 400px) {
 .footerQuienes{
-  bottom: -120rem;
+  bottom: -150rem;
+}
+.image-container2{
+ left: 25%; 
+}
+.linkedin{
+  top: 35rem;
 }
 
+.boton-inicio3{
+  top: 30rem;
+  left: 40%;
+}
+.contacto{
+  top: 31rem;
+  left: 38%;
+}
 }

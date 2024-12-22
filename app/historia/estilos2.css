@@ -303,21 +303,26 @@ top: 0rem;
     }
     .heading-primary-quienes-somos5{
       top: 1.5rem;
+      width: 100%;
           }
           .heading-secondary-quienes-somos5{
             top: -3.5rem;
+            max-width: 100%;
           }
           .heading-primary-quienes-somos6{
             top: -3.5rem;
+            max-width: 100%;
           }
           .heading-secondary-quienes-somos6{
             top: -3.5rem;
+            max-width: 100%;
           }
           .heading-primary-quienes-somos7{
             top: -3.5rem;
           }
           .heading-secondary-quienes-somos7{
             top: -3.5rem;
+            max-width: 100%;
           }
           .vision5{
             top: 1.5rem;

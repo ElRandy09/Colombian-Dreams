@@ -210,3 +210,9 @@
     top: 1rem !important;
   }
 }
+
+@media (max-width: 400px) {
+.footer{
+  top: 25rem;
+}
+}
